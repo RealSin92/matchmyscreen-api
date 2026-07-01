@@ -1,0 +1,6516 @@
+{
+  "_meta": {
+    "name": "MatchMyScreen Device Database",
+    "version": "1.0.0",
+    "generated": "2026-06-30",
+    "description": "Τεχνικά χαρακτηριστικά οθονών smartphone (2014-σήμερα) για αντιστοίχιση συμβατότητας προστατευτικών οθόνης.",
+    "disclaimer": "Τα τεχνικά χαρακτηριστικά των συσκευών αποτελούν δημόσια δεδομένα των κατασκευαστών και χρησιμοποιούνται αποκλειστικά για ενημερωτικούς σκοπούς συμβατότητας.",
+    "schema": {
+      "id": "unique slug identifier",
+      "model": "display name",
+      "brand": "manufacturer brand",
+      "year": "release year",
+      "screenSize": "diagonal in inches",
+      "dimensions": "{h,w} body dimensions in mm",
+      "screenDimensions": "{h,w} active screen area in mm",
+      "screenType": "flat | curved | flat-2.5d",
+      "notch": "none | notch | punch-hole | pill | waterdrop | bar",
+      "glassType": "front glass protection type"
+    },
+    "categories": {
+      "flagship": [
+        "Samsung",
+        "Apple",
+        "Xiaomi",
+        "Redmi",
+        "POCO"
+      ],
+      "mainstream": [
+        "Motorola",
+        "Realme",
+        "OnePlus",
+        "Honor",
+        "Google",
+        "Oppo",
+        "Nothing",
+        "CMF",
+        "Vivo"
+      ],
+      "premium_gaming": [
+        "Sony",
+        "Asus",
+        "ZTE"
+      ],
+      "vfm_budget": [
+        "TCL",
+        "Nokia",
+        "Infinix",
+        "Tecno",
+        "Cubot"
+      ],
+      "rugged": [
+        "Blackview",
+        "Ulefone",
+        "Doogee",
+        "Caterpillar",
+        "FOSSiBOT",
+        "HOTWAV",
+        "AGM"
+      ],
+      "special": [
+        "Huawei"
+      ]
+    },
+    "totalDevices": 353,
+    "totalBrands": 30,
+    "yearRange": "2014-2025"
+  },
+  "brands": [
+    "Samsung",
+    "Apple",
+    "Xiaomi",
+    "Redmi",
+    "POCO",
+    "Motorola",
+    "Realme",
+    "OnePlus",
+    "Honor",
+    "Google",
+    "Oppo",
+    "Nothing",
+    "CMF",
+    "Vivo",
+    "Sony",
+    "Asus",
+    "ZTE",
+    "TCL",
+    "Nokia",
+    "Infinix",
+    "Tecno",
+    "Cubot",
+    "Blackview",
+    "Ulefone",
+    "Doogee",
+    "Caterpillar",
+    "FOSSiBOT",
+    "HOTWAV",
+    "AGM",
+    "Huawei"
+  ],
+  "phones": {
+    "Apple": [
+      {
+        "id": "iphone-16-pro-max",
+        "model": "iPhone 16 Pro Max",
+        "brand": "Apple",
+        "year": 2024,
+        "screenSize": 6.9,
+        "dimensions": {
+          "h": 163.0,
+          "w": 77.6
+        },
+        "screenDimensions": {
+          "h": 155.2,
+          "w": 72.9
+        },
+        "screenType": "flat",
+        "notch": "pill",
+        "glassType": "ceramic-shield"
+      },
+      {
+        "id": "iphone-16-pro",
+        "model": "iPhone 16 Pro",
+        "brand": "Apple",
+        "year": 2024,
+        "screenSize": 6.3,
+        "dimensions": {
+          "h": 149.6,
+          "w": 71.5
+        },
+        "screenDimensions": {
+          "h": 142.0,
+          "w": 66.2
+        },
+        "screenType": "flat",
+        "notch": "pill",
+        "glassType": "ceramic-shield"
+      },
+      {
+        "id": "iphone-16-plus",
+        "model": "iPhone 16 Plus",
+        "brand": "Apple",
+        "year": 2024,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 160.9,
+          "w": 77.8
+        },
+        "screenDimensions": {
+          "h": 153.0,
+          "w": 72.4
+        },
+        "screenType": "flat",
+        "notch": "pill",
+        "glassType": "ceramic-shield"
+      },
+      {
+        "id": "iphone-16",
+        "model": "iPhone 16",
+        "brand": "Apple",
+        "year": 2024,
+        "screenSize": 6.1,
+        "dimensions": {
+          "h": 147.6,
+          "w": 71.6
+        },
+        "screenDimensions": {
+          "h": 140.0,
+          "w": 66.4
+        },
+        "screenType": "flat",
+        "notch": "pill",
+        "glassType": "ceramic-shield"
+      },
+      {
+        "id": "iphone-15-pro-max",
+        "model": "iPhone 15 Pro Max",
+        "brand": "Apple",
+        "year": 2023,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 159.9,
+          "w": 76.7
+        },
+        "screenDimensions": {
+          "h": 152.0,
+          "w": 70.5
+        },
+        "screenType": "flat",
+        "notch": "pill",
+        "glassType": "ceramic-shield"
+      },
+      {
+        "id": "iphone-15-pro",
+        "model": "iPhone 15 Pro",
+        "brand": "Apple",
+        "year": 2023,
+        "screenSize": 6.1,
+        "dimensions": {
+          "h": 146.6,
+          "w": 70.6
+        },
+        "screenDimensions": {
+          "h": 139.0,
+          "w": 64.4
+        },
+        "screenType": "flat",
+        "notch": "pill",
+        "glassType": "ceramic-shield"
+      },
+      {
+        "id": "iphone-15-plus",
+        "model": "iPhone 15 Plus",
+        "brand": "Apple",
+        "year": 2023,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 160.9,
+          "w": 77.8
+        },
+        "screenDimensions": {
+          "h": 153.0,
+          "w": 72.5
+        },
+        "screenType": "flat",
+        "notch": "pill",
+        "glassType": "ceramic-shield"
+      },
+      {
+        "id": "iphone-15",
+        "model": "iPhone 15",
+        "brand": "Apple",
+        "year": 2023,
+        "screenSize": 6.1,
+        "dimensions": {
+          "h": 147.6,
+          "w": 71.6
+        },
+        "screenDimensions": {
+          "h": 140.0,
+          "w": 66.5
+        },
+        "screenType": "flat",
+        "notch": "pill",
+        "glassType": "ceramic-shield"
+      },
+      {
+        "id": "iphone-14-pro-max",
+        "model": "iPhone 14 Pro Max",
+        "brand": "Apple",
+        "year": 2022,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 160.7,
+          "w": 77.6
+        },
+        "screenDimensions": {
+          "h": 152.8,
+          "w": 71.4
+        },
+        "screenType": "flat",
+        "notch": "pill",
+        "glassType": "ceramic-shield"
+      },
+      {
+        "id": "iphone-14-pro",
+        "model": "iPhone 14 Pro",
+        "brand": "Apple",
+        "year": 2022,
+        "screenSize": 6.1,
+        "dimensions": {
+          "h": 147.5,
+          "w": 71.5
+        },
+        "screenDimensions": {
+          "h": 139.5,
+          "w": 65.2
+        },
+        "screenType": "flat",
+        "notch": "pill",
+        "glassType": "ceramic-shield"
+      },
+      {
+        "id": "iphone-14-plus",
+        "model": "iPhone 14 Plus",
+        "brand": "Apple",
+        "year": 2022,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 160.8,
+          "w": 78.1
+        },
+        "screenDimensions": {
+          "h": 153.0,
+          "w": 72.4
+        },
+        "screenType": "flat",
+        "notch": "notch",
+        "glassType": "ceramic-shield"
+      },
+      {
+        "id": "iphone-14",
+        "model": "iPhone 14",
+        "brand": "Apple",
+        "year": 2022,
+        "screenSize": 6.1,
+        "dimensions": {
+          "h": 146.7,
+          "w": 71.5
+        },
+        "screenDimensions": {
+          "h": 140.0,
+          "w": 66.4
+        },
+        "screenType": "flat",
+        "notch": "notch",
+        "glassType": "ceramic-shield"
+      },
+      {
+        "id": "iphone-13-pro-max",
+        "model": "iPhone 13 Pro Max",
+        "brand": "Apple",
+        "year": 2021,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 160.8,
+          "w": 78.1
+        },
+        "screenDimensions": {
+          "h": 153.0,
+          "w": 72.4
+        },
+        "screenType": "flat",
+        "notch": "notch",
+        "glassType": "ceramic-shield"
+      },
+      {
+        "id": "iphone-13-pro",
+        "model": "iPhone 13 Pro",
+        "brand": "Apple",
+        "year": 2021,
+        "screenSize": 6.1,
+        "dimensions": {
+          "h": 146.7,
+          "w": 71.5
+        },
+        "screenDimensions": {
+          "h": 140.0,
+          "w": 66.4
+        },
+        "screenType": "flat",
+        "notch": "notch",
+        "glassType": "ceramic-shield"
+      },
+      {
+        "id": "iphone-13",
+        "model": "iPhone 13",
+        "brand": "Apple",
+        "year": 2021,
+        "screenSize": 6.1,
+        "dimensions": {
+          "h": 146.7,
+          "w": 71.5
+        },
+        "screenDimensions": {
+          "h": 140.0,
+          "w": 66.4
+        },
+        "screenType": "flat",
+        "notch": "notch",
+        "glassType": "ceramic-shield"
+      },
+      {
+        "id": "iphone-13-mini",
+        "model": "iPhone 13 Mini",
+        "brand": "Apple",
+        "year": 2021,
+        "screenSize": 5.4,
+        "dimensions": {
+          "h": 131.5,
+          "w": 64.2
+        },
+        "screenDimensions": {
+          "h": 124.8,
+          "w": 58.7
+        },
+        "screenType": "flat",
+        "notch": "notch",
+        "glassType": "ceramic-shield"
+      },
+      {
+        "id": "iphone-12-pro-max",
+        "model": "iPhone 12 Pro Max",
+        "brand": "Apple",
+        "year": 2020,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 160.8,
+          "w": 78.1
+        },
+        "screenDimensions": {
+          "h": 153.0,
+          "w": 72.4
+        },
+        "screenType": "flat",
+        "notch": "notch",
+        "glassType": "ceramic-shield"
+      },
+      {
+        "id": "iphone-12-pro",
+        "model": "iPhone 12 Pro",
+        "brand": "Apple",
+        "year": 2020,
+        "screenSize": 6.1,
+        "dimensions": {
+          "h": 146.7,
+          "w": 71.5
+        },
+        "screenDimensions": {
+          "h": 140.0,
+          "w": 66.4
+        },
+        "screenType": "flat",
+        "notch": "notch",
+        "glassType": "ceramic-shield"
+      },
+      {
+        "id": "iphone-12",
+        "model": "iPhone 12",
+        "brand": "Apple",
+        "year": 2020,
+        "screenSize": 6.1,
+        "dimensions": {
+          "h": 146.7,
+          "w": 71.5
+        },
+        "screenDimensions": {
+          "h": 140.0,
+          "w": 66.4
+        },
+        "screenType": "flat",
+        "notch": "notch",
+        "glassType": "ceramic-shield"
+      },
+      {
+        "id": "iphone-12-mini",
+        "model": "iPhone 12 Mini",
+        "brand": "Apple",
+        "year": 2020,
+        "screenSize": 5.4,
+        "dimensions": {
+          "h": 131.5,
+          "w": 64.2
+        },
+        "screenDimensions": {
+          "h": 124.8,
+          "w": 58.7
+        },
+        "screenType": "flat",
+        "notch": "notch",
+        "glassType": "ceramic-shield"
+      },
+      {
+        "id": "iphone-se-2020",
+        "model": "iPhone SE (2020)",
+        "brand": "Apple",
+        "year": 2020,
+        "screenSize": 4.7,
+        "dimensions": {
+          "h": 138.4,
+          "w": 67.3
+        },
+        "screenDimensions": {
+          "h": 104.6,
+          "w": 58.5
+        },
+        "screenType": "flat",
+        "notch": "bar",
+        "glassType": "glass"
+      },
+      {
+        "id": "iphone-11-pro-max",
+        "model": "iPhone 11 Pro Max",
+        "brand": "Apple",
+        "year": 2019,
+        "screenSize": 6.5,
+        "dimensions": {
+          "h": 158.0,
+          "w": 77.8
+        },
+        "screenDimensions": {
+          "h": 150.0,
+          "w": 70.2
+        },
+        "screenType": "flat",
+        "notch": "notch",
+        "glassType": "glass"
+      },
+      {
+        "id": "iphone-11-pro",
+        "model": "iPhone 11 Pro",
+        "brand": "Apple",
+        "year": 2019,
+        "screenSize": 5.8,
+        "dimensions": {
+          "h": 144.0,
+          "w": 71.4
+        },
+        "screenDimensions": {
+          "h": 137.0,
+          "w": 63.4
+        },
+        "screenType": "flat",
+        "notch": "notch",
+        "glassType": "glass"
+      },
+      {
+        "id": "iphone-11",
+        "model": "iPhone 11",
+        "brand": "Apple",
+        "year": 2019,
+        "screenSize": 6.1,
+        "dimensions": {
+          "h": 150.9,
+          "w": 75.7
+        },
+        "screenDimensions": {
+          "h": 143.0,
+          "w": 68.4
+        },
+        "screenType": "flat",
+        "notch": "notch",
+        "glassType": "glass"
+      },
+      {
+        "id": "iphone-xs-max",
+        "model": "iPhone XS Max",
+        "brand": "Apple",
+        "year": 2018,
+        "screenSize": 6.5,
+        "dimensions": {
+          "h": 157.5,
+          "w": 77.4
+        },
+        "screenDimensions": {
+          "h": 149.6,
+          "w": 70.0
+        },
+        "screenType": "flat",
+        "notch": "notch",
+        "glassType": "glass"
+      },
+      {
+        "id": "iphone-xs",
+        "model": "iPhone XS",
+        "brand": "Apple",
+        "year": 2018,
+        "screenSize": 5.8,
+        "dimensions": {
+          "h": 143.6,
+          "w": 70.9
+        },
+        "screenDimensions": {
+          "h": 136.5,
+          "w": 63.2
+        },
+        "screenType": "flat",
+        "notch": "notch",
+        "glassType": "glass"
+      },
+      {
+        "id": "iphone-xr",
+        "model": "iPhone XR",
+        "brand": "Apple",
+        "year": 2018,
+        "screenSize": 6.1,
+        "dimensions": {
+          "h": 150.9,
+          "w": 75.7
+        },
+        "screenDimensions": {
+          "h": 143.0,
+          "w": 68.4
+        },
+        "screenType": "flat",
+        "notch": "notch",
+        "glassType": "glass"
+      },
+      {
+        "id": "iphone-x",
+        "model": "iPhone X",
+        "brand": "Apple",
+        "year": 2017,
+        "screenSize": 5.8,
+        "dimensions": {
+          "h": 143.6,
+          "w": 70.9
+        },
+        "screenDimensions": {
+          "h": 136.5,
+          "w": 63.2
+        },
+        "screenType": "flat",
+        "notch": "notch",
+        "glassType": "glass"
+      },
+      {
+        "id": "iphone-8-plus",
+        "model": "iPhone 8 Plus",
+        "brand": "Apple",
+        "year": 2017,
+        "screenSize": 5.5,
+        "dimensions": {
+          "h": 158.4,
+          "w": 78.1
+        },
+        "screenDimensions": {
+          "h": 121.4,
+          "w": 68.2
+        },
+        "screenType": "flat",
+        "notch": "bar",
+        "glassType": "glass"
+      },
+      {
+        "id": "iphone-8",
+        "model": "iPhone 8",
+        "brand": "Apple",
+        "year": 2017,
+        "screenSize": 4.7,
+        "dimensions": {
+          "h": 138.4,
+          "w": 67.3
+        },
+        "screenDimensions": {
+          "h": 104.6,
+          "w": 58.5
+        },
+        "screenType": "flat",
+        "notch": "bar",
+        "glassType": "glass"
+      },
+      {
+        "id": "iphone-7-plus",
+        "model": "iPhone 7 Plus",
+        "brand": "Apple",
+        "year": 2016,
+        "screenSize": 5.5,
+        "dimensions": {
+          "h": 158.2,
+          "w": 77.9
+        },
+        "screenDimensions": {
+          "h": 121.4,
+          "w": 68.2
+        },
+        "screenType": "flat",
+        "notch": "bar",
+        "glassType": "glass"
+      },
+      {
+        "id": "iphone-7",
+        "model": "iPhone 7",
+        "brand": "Apple",
+        "year": 2016,
+        "screenSize": 4.7,
+        "dimensions": {
+          "h": 138.3,
+          "w": 67.1
+        },
+        "screenDimensions": {
+          "h": 104.6,
+          "w": 58.5
+        },
+        "screenType": "flat",
+        "notch": "bar",
+        "glassType": "glass"
+      },
+      {
+        "id": "iphone-6s-plus",
+        "model": "iPhone 6s Plus",
+        "brand": "Apple",
+        "year": 2015,
+        "screenSize": 5.5,
+        "dimensions": {
+          "h": 158.2,
+          "w": 77.9
+        },
+        "screenDimensions": {
+          "h": 121.4,
+          "w": 68.2
+        },
+        "screenType": "flat",
+        "notch": "bar",
+        "glassType": "glass"
+      },
+      {
+        "id": "iphone-6s",
+        "model": "iPhone 6s",
+        "brand": "Apple",
+        "year": 2015,
+        "screenSize": 4.7,
+        "dimensions": {
+          "h": 138.3,
+          "w": 67.1
+        },
+        "screenDimensions": {
+          "h": 104.6,
+          "w": 58.5
+        },
+        "screenType": "flat",
+        "notch": "bar",
+        "glassType": "glass"
+      },
+      {
+        "id": "iphone-6-plus",
+        "model": "iPhone 6 Plus",
+        "brand": "Apple",
+        "year": 2014,
+        "screenSize": 5.5,
+        "dimensions": {
+          "h": 158.1,
+          "w": 77.8
+        },
+        "screenDimensions": {
+          "h": 121.4,
+          "w": 68.2
+        },
+        "screenType": "flat",
+        "notch": "bar",
+        "glassType": "glass"
+      },
+      {
+        "id": "iphone-6",
+        "model": "iPhone 6",
+        "brand": "Apple",
+        "year": 2014,
+        "screenSize": 4.7,
+        "dimensions": {
+          "h": 138.1,
+          "w": 67.0
+        },
+        "screenDimensions": {
+          "h": 104.6,
+          "w": 58.5
+        },
+        "screenType": "flat",
+        "notch": "bar",
+        "glassType": "glass"
+      },
+      {
+        "id": "iphone-se-2022",
+        "model": "iPhone SE (2022)",
+        "brand": "Apple",
+        "year": 2022,
+        "screenSize": 4.7,
+        "dimensions": {
+          "h": 138.4,
+          "w": 67.3
+        },
+        "screenDimensions": {
+          "h": 104.6,
+          "w": 58.5
+        },
+        "screenType": "flat",
+        "notch": "bar",
+        "glassType": "glass"
+      }
+    ],
+    "Samsung": [
+      {
+        "id": "galaxy-s25-ultra",
+        "model": "Galaxy S25 Ultra",
+        "brand": "Samsung",
+        "year": 2025,
+        "screenSize": 6.9,
+        "dimensions": {
+          "h": 162.8,
+          "w": 77.6
+        },
+        "screenDimensions": {
+          "h": 155.5,
+          "w": 73.5
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-armour"
+      },
+      {
+        "id": "galaxy-s25-plus",
+        "model": "Galaxy S25+",
+        "brand": "Samsung",
+        "year": 2025,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 158.4,
+          "w": 75.8
+        },
+        "screenDimensions": {
+          "h": 151.3,
+          "w": 70.7
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-victus2"
+      },
+      {
+        "id": "galaxy-s25",
+        "model": "Galaxy S25",
+        "brand": "Samsung",
+        "year": 2025,
+        "screenSize": 6.2,
+        "dimensions": {
+          "h": 146.9,
+          "w": 70.5
+        },
+        "screenDimensions": {
+          "h": 140.3,
+          "w": 65.8
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-victus2"
+      },
+      {
+        "id": "galaxy-s24-ultra",
+        "model": "Galaxy S24 Ultra",
+        "brand": "Samsung",
+        "year": 2024,
+        "screenSize": 6.8,
+        "dimensions": {
+          "h": 162.3,
+          "w": 79.0
+        },
+        "screenDimensions": {
+          "h": 155.0,
+          "w": 73.7
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-armour"
+      },
+      {
+        "id": "galaxy-s24-plus",
+        "model": "Galaxy S24+",
+        "brand": "Samsung",
+        "year": 2024,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 158.5,
+          "w": 75.9
+        },
+        "screenDimensions": {
+          "h": 151.5,
+          "w": 70.8
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-victus2"
+      },
+      {
+        "id": "galaxy-s24",
+        "model": "Galaxy S24",
+        "brand": "Samsung",
+        "year": 2024,
+        "screenSize": 6.2,
+        "dimensions": {
+          "h": 147.0,
+          "w": 70.6
+        },
+        "screenDimensions": {
+          "h": 140.5,
+          "w": 65.9
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-victus2"
+      },
+      {
+        "id": "galaxy-s23-ultra",
+        "model": "Galaxy S23 Ultra",
+        "brand": "Samsung",
+        "year": 2023,
+        "screenSize": 6.8,
+        "dimensions": {
+          "h": 163.4,
+          "w": 78.1
+        },
+        "screenDimensions": {
+          "h": 156.3,
+          "w": 73.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-victus2"
+      },
+      {
+        "id": "galaxy-s23-plus",
+        "model": "Galaxy S23+",
+        "brand": "Samsung",
+        "year": 2023,
+        "screenSize": 6.6,
+        "dimensions": {
+          "h": 157.8,
+          "w": 76.2
+        },
+        "screenDimensions": {
+          "h": 150.7,
+          "w": 71.1
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-victus2"
+      },
+      {
+        "id": "galaxy-s23",
+        "model": "Galaxy S23",
+        "brand": "Samsung",
+        "year": 2023,
+        "screenSize": 6.1,
+        "dimensions": {
+          "h": 146.3,
+          "w": 70.9
+        },
+        "screenDimensions": {
+          "h": 139.8,
+          "w": 66.2
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-victus2"
+      },
+      {
+        "id": "galaxy-s22-ultra",
+        "model": "Galaxy S22 Ultra",
+        "brand": "Samsung",
+        "year": 2022,
+        "screenSize": 6.8,
+        "dimensions": {
+          "h": 163.3,
+          "w": 77.9
+        },
+        "screenDimensions": {
+          "h": 156.1,
+          "w": 72.8
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-victus-plus"
+      },
+      {
+        "id": "galaxy-s22-plus",
+        "model": "Galaxy S22+",
+        "brand": "Samsung",
+        "year": 2022,
+        "screenSize": 6.6,
+        "dimensions": {
+          "h": 157.4,
+          "w": 75.8
+        },
+        "screenDimensions": {
+          "h": 150.3,
+          "w": 70.7
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-victus-plus"
+      },
+      {
+        "id": "galaxy-s22",
+        "model": "Galaxy S22",
+        "brand": "Samsung",
+        "year": 2022,
+        "screenSize": 6.1,
+        "dimensions": {
+          "h": 146.0,
+          "w": 70.6
+        },
+        "screenDimensions": {
+          "h": 139.4,
+          "w": 65.8
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-victus-plus"
+      },
+      {
+        "id": "galaxy-s21-ultra",
+        "model": "Galaxy S21 Ultra",
+        "brand": "Samsung",
+        "year": 2021,
+        "screenSize": 6.8,
+        "dimensions": {
+          "h": 165.1,
+          "w": 75.6
+        },
+        "screenDimensions": {
+          "h": 157.8,
+          "w": 70.5
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-victus"
+      },
+      {
+        "id": "galaxy-s21-plus",
+        "model": "Galaxy S21+",
+        "brand": "Samsung",
+        "year": 2021,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 161.5,
+          "w": 75.6
+        },
+        "screenDimensions": {
+          "h": 154.5,
+          "w": 70.5
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-victus"
+      },
+      {
+        "id": "galaxy-s21",
+        "model": "Galaxy S21",
+        "brand": "Samsung",
+        "year": 2021,
+        "screenSize": 6.2,
+        "dimensions": {
+          "h": 151.7,
+          "w": 71.2
+        },
+        "screenDimensions": {
+          "h": 145.0,
+          "w": 66.4
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-victus"
+      },
+      {
+        "id": "galaxy-s20-ultra",
+        "model": "Galaxy S20 Ultra",
+        "brand": "Samsung",
+        "year": 2020,
+        "screenSize": 6.9,
+        "dimensions": {
+          "h": 166.9,
+          "w": 76.0
+        },
+        "screenDimensions": {
+          "h": 159.6,
+          "w": 70.9
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass6"
+      },
+      {
+        "id": "galaxy-s20-plus",
+        "model": "Galaxy S20+",
+        "brand": "Samsung",
+        "year": 2020,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 161.9,
+          "w": 73.7
+        },
+        "screenDimensions": {
+          "h": 154.8,
+          "w": 68.8
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass6"
+      },
+      {
+        "id": "galaxy-s20",
+        "model": "Galaxy S20",
+        "brand": "Samsung",
+        "year": 2020,
+        "screenSize": 6.2,
+        "dimensions": {
+          "h": 151.7,
+          "w": 69.1
+        },
+        "screenDimensions": {
+          "h": 145.0,
+          "w": 64.5
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass6"
+      },
+      {
+        "id": "galaxy-s10-plus",
+        "model": "Galaxy S10+",
+        "brand": "Samsung",
+        "year": 2019,
+        "screenSize": 6.4,
+        "dimensions": {
+          "h": 157.6,
+          "w": 74.1
+        },
+        "screenDimensions": {
+          "h": 150.5,
+          "w": 69.2
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass6"
+      },
+      {
+        "id": "galaxy-s10",
+        "model": "Galaxy S10",
+        "brand": "Samsung",
+        "year": 2019,
+        "screenSize": 6.1,
+        "dimensions": {
+          "h": 149.9,
+          "w": 70.4
+        },
+        "screenDimensions": {
+          "h": 143.2,
+          "w": 65.7
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass6"
+      },
+      {
+        "id": "galaxy-s10e",
+        "model": "Galaxy S10e",
+        "brand": "Samsung",
+        "year": 2019,
+        "screenSize": 5.8,
+        "dimensions": {
+          "h": 142.2,
+          "w": 69.9
+        },
+        "screenDimensions": {
+          "h": 135.8,
+          "w": 65.2
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass6"
+      },
+      {
+        "id": "galaxy-s9-plus",
+        "model": "Galaxy S9+",
+        "brand": "Samsung",
+        "year": 2018,
+        "screenSize": 6.2,
+        "dimensions": {
+          "h": 158.1,
+          "w": 73.8
+        },
+        "screenDimensions": {
+          "h": 150.9,
+          "w": 68.9
+        },
+        "screenType": "curved",
+        "notch": "none",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "galaxy-s9",
+        "model": "Galaxy S9",
+        "brand": "Samsung",
+        "year": 2018,
+        "screenSize": 5.8,
+        "dimensions": {
+          "h": 147.7,
+          "w": 68.7
+        },
+        "screenDimensions": {
+          "h": 141.0,
+          "w": 64.1
+        },
+        "screenType": "curved",
+        "notch": "none",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "galaxy-s8-plus",
+        "model": "Galaxy S8+",
+        "brand": "Samsung",
+        "year": 2017,
+        "screenSize": 6.2,
+        "dimensions": {
+          "h": 159.5,
+          "w": 73.4
+        },
+        "screenDimensions": {
+          "h": 152.6,
+          "w": 68.5
+        },
+        "screenType": "curved",
+        "notch": "none",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "galaxy-s8",
+        "model": "Galaxy S8",
+        "brand": "Samsung",
+        "year": 2017,
+        "screenSize": 5.8,
+        "dimensions": {
+          "h": 148.9,
+          "w": 68.1
+        },
+        "screenDimensions": {
+          "h": 142.3,
+          "w": 63.5
+        },
+        "screenType": "curved",
+        "notch": "none",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "galaxy-s7-edge",
+        "model": "Galaxy S7 Edge",
+        "brand": "Samsung",
+        "year": 2016,
+        "screenSize": 5.5,
+        "dimensions": {
+          "h": 150.9,
+          "w": 72.6
+        },
+        "screenDimensions": {
+          "h": 144.2,
+          "w": 67.8
+        },
+        "screenType": "curved",
+        "notch": "none",
+        "glassType": "gorilla-glass4"
+      },
+      {
+        "id": "galaxy-s7",
+        "model": "Galaxy S7",
+        "brand": "Samsung",
+        "year": 2016,
+        "screenSize": 5.1,
+        "dimensions": {
+          "h": 142.4,
+          "w": 69.6
+        },
+        "screenDimensions": {
+          "h": 113.4,
+          "w": 63.9
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass4"
+      },
+      {
+        "id": "galaxy-s6-edge-plus",
+        "model": "Galaxy S6 Edge+",
+        "brand": "Samsung",
+        "year": 2015,
+        "screenSize": 5.7,
+        "dimensions": {
+          "h": 154.4,
+          "w": 75.8
+        },
+        "screenDimensions": {
+          "h": 127.7,
+          "w": 72.2
+        },
+        "screenType": "curved",
+        "notch": "none",
+        "glassType": "gorilla-glass4"
+      },
+      {
+        "id": "galaxy-s6-edge",
+        "model": "Galaxy S6 Edge",
+        "brand": "Samsung",
+        "year": 2015,
+        "screenSize": 5.1,
+        "dimensions": {
+          "h": 142.1,
+          "w": 70.1
+        },
+        "screenDimensions": {
+          "h": 113.4,
+          "w": 65.5
+        },
+        "screenType": "curved",
+        "notch": "none",
+        "glassType": "gorilla-glass4"
+      },
+      {
+        "id": "galaxy-s6",
+        "model": "Galaxy S6",
+        "brand": "Samsung",
+        "year": 2015,
+        "screenSize": 5.1,
+        "dimensions": {
+          "h": 143.4,
+          "w": 70.5
+        },
+        "screenDimensions": {
+          "h": 113.4,
+          "w": 65.5
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass4"
+      },
+      {
+        "id": "galaxy-s5",
+        "model": "Galaxy S5",
+        "brand": "Samsung",
+        "year": 2014,
+        "screenSize": 5.1,
+        "dimensions": {
+          "h": 142.0,
+          "w": 72.5
+        },
+        "screenDimensions": {
+          "h": 111.7,
+          "w": 62.5
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass3"
+      },
+      {
+        "id": "galaxy-a56",
+        "model": "Galaxy A56 5G",
+        "brand": "Samsung",
+        "year": 2025,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 162.4,
+          "w": 77.5
+        },
+        "screenDimensions": {
+          "h": 154.9,
+          "w": 72.2
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus"
+      },
+      {
+        "id": "galaxy-a36",
+        "model": "Galaxy A36 5G",
+        "brand": "Samsung",
+        "year": 2025,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 162.4,
+          "w": 77.5
+        },
+        "screenDimensions": {
+          "h": 154.9,
+          "w": 72.2
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "galaxy-a55",
+        "model": "Galaxy A55 5G",
+        "brand": "Samsung",
+        "year": 2024,
+        "screenSize": 6.6,
+        "dimensions": {
+          "h": 161.1,
+          "w": 77.4
+        },
+        "screenDimensions": {
+          "h": 153.5,
+          "w": 72.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus"
+      },
+      {
+        "id": "galaxy-a35",
+        "model": "Galaxy A35 5G",
+        "brand": "Samsung",
+        "year": 2024,
+        "screenSize": 6.6,
+        "dimensions": {
+          "h": 161.7,
+          "w": 78.0
+        },
+        "screenDimensions": {
+          "h": 153.5,
+          "w": 72.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "galaxy-a15",
+        "model": "Galaxy A15 5G",
+        "brand": "Samsung",
+        "year": 2024,
+        "screenSize": 6.5,
+        "dimensions": {
+          "h": 160.1,
+          "w": 76.8
+        },
+        "screenDimensions": {
+          "h": 152.6,
+          "w": 71.7
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "galaxy-a54",
+        "model": "Galaxy A54 5G",
+        "brand": "Samsung",
+        "year": 2023,
+        "screenSize": 6.4,
+        "dimensions": {
+          "h": 158.2,
+          "w": 76.7
+        },
+        "screenDimensions": {
+          "h": 150.8,
+          "w": 71.6
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "galaxy-a34",
+        "model": "Galaxy A34 5G",
+        "brand": "Samsung",
+        "year": 2023,
+        "screenSize": 6.6,
+        "dimensions": {
+          "h": 161.3,
+          "w": 78.1
+        },
+        "screenDimensions": {
+          "h": 153.5,
+          "w": 72.7
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "galaxy-a14",
+        "model": "Galaxy A14 5G",
+        "brand": "Samsung",
+        "year": 2023,
+        "screenSize": 6.6,
+        "dimensions": {
+          "h": 167.7,
+          "w": 78.0
+        },
+        "screenDimensions": {
+          "h": 159.3,
+          "w": 72.7
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "galaxy-a53",
+        "model": "Galaxy A53 5G",
+        "brand": "Samsung",
+        "year": 2022,
+        "screenSize": 6.5,
+        "dimensions": {
+          "h": 159.6,
+          "w": 74.8
+        },
+        "screenDimensions": {
+          "h": 152.1,
+          "w": 70.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "galaxy-a52",
+        "model": "Galaxy A52",
+        "brand": "Samsung",
+        "year": 2022,
+        "screenSize": 6.5,
+        "dimensions": {
+          "h": 159.9,
+          "w": 75.1
+        },
+        "screenDimensions": {
+          "h": 152.1,
+          "w": 70.2
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "galaxy-a33",
+        "model": "Galaxy A33 5G",
+        "brand": "Samsung",
+        "year": 2022,
+        "screenSize": 6.4,
+        "dimensions": {
+          "h": 159.7,
+          "w": 74.0
+        },
+        "screenDimensions": {
+          "h": 152.2,
+          "w": 69.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "galaxy-a51",
+        "model": "Galaxy A51",
+        "brand": "Samsung",
+        "year": 2020,
+        "screenSize": 6.5,
+        "dimensions": {
+          "h": 158.5,
+          "w": 73.6
+        },
+        "screenDimensions": {
+          "h": 151.0,
+          "w": 68.7
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "galaxy-a50",
+        "model": "Galaxy A50",
+        "brand": "Samsung",
+        "year": 2019,
+        "screenSize": 6.4,
+        "dimensions": {
+          "h": 158.5,
+          "w": 74.7
+        },
+        "screenDimensions": {
+          "h": 151.0,
+          "w": 69.8
+        },
+        "screenType": "flat",
+        "notch": "waterdrop",
+        "glassType": "glass"
+      },
+      {
+        "id": "galaxy-a30",
+        "model": "Galaxy A30",
+        "brand": "Samsung",
+        "year": 2019,
+        "screenSize": 6.4,
+        "dimensions": {
+          "h": 158.5,
+          "w": 74.7
+        },
+        "screenDimensions": {
+          "h": 151.0,
+          "w": 69.8
+        },
+        "screenType": "flat",
+        "notch": "waterdrop",
+        "glassType": "glass"
+      },
+      {
+        "id": "galaxy-z-fold6",
+        "model": "Galaxy Z Fold 6",
+        "brand": "Samsung",
+        "year": 2024,
+        "screenSize": 7.6,
+        "dimensions": {
+          "h": 153.5,
+          "w": 132.1
+        },
+        "screenDimensions": {
+          "h": 145.9,
+          "w": 125.2
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "utg"
+      },
+      {
+        "id": "galaxy-z-flip6",
+        "model": "Galaxy Z Flip 6",
+        "brand": "Samsung",
+        "year": 2024,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 165.1,
+          "w": 71.9
+        },
+        "screenDimensions": {
+          "h": 157.3,
+          "w": 66.8
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "utg"
+      },
+      {
+        "id": "galaxy-z-fold5",
+        "model": "Galaxy Z Fold 5",
+        "brand": "Samsung",
+        "year": 2023,
+        "screenSize": 7.6,
+        "dimensions": {
+          "h": 154.9,
+          "w": 129.9
+        },
+        "screenDimensions": {
+          "h": 147.3,
+          "w": 123.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "utg"
+      },
+      {
+        "id": "galaxy-z-flip5",
+        "model": "Galaxy Z Flip 5",
+        "brand": "Samsung",
+        "year": 2023,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 165.1,
+          "w": 71.9
+        },
+        "screenDimensions": {
+          "h": 157.3,
+          "w": 66.8
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "utg"
+      },
+      {
+        "id": "galaxy-note-20-ultra",
+        "model": "Galaxy Note 20 Ultra",
+        "brand": "Samsung",
+        "year": 2020,
+        "screenSize": 6.9,
+        "dimensions": {
+          "h": 164.8,
+          "w": 77.2
+        },
+        "screenDimensions": {
+          "h": 157.6,
+          "w": 72.1
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass7"
+      },
+      {
+        "id": "galaxy-note-20",
+        "model": "Galaxy Note 20",
+        "brand": "Samsung",
+        "year": 2020,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 161.6,
+          "w": 75.1
+        },
+        "screenDimensions": {
+          "h": 154.5,
+          "w": 70.1
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "galaxy-note-10-plus",
+        "model": "Galaxy Note 10+",
+        "brand": "Samsung",
+        "year": 2019,
+        "screenSize": 6.8,
+        "dimensions": {
+          "h": 162.3,
+          "w": 77.2
+        },
+        "screenDimensions": {
+          "h": 155.2,
+          "w": 72.1
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass6"
+      },
+      {
+        "id": "galaxy-note-10",
+        "model": "Galaxy Note 10",
+        "brand": "Samsung",
+        "year": 2019,
+        "screenSize": 6.3,
+        "dimensions": {
+          "h": 151.0,
+          "w": 71.8
+        },
+        "screenDimensions": {
+          "h": 144.2,
+          "w": 67.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass6"
+      },
+      {
+        "id": "galaxy-note-9",
+        "model": "Galaxy Note 9",
+        "brand": "Samsung",
+        "year": 2018,
+        "screenSize": 6.4,
+        "dimensions": {
+          "h": 161.9,
+          "w": 76.4
+        },
+        "screenDimensions": {
+          "h": 154.8,
+          "w": 71.5
+        },
+        "screenType": "curved",
+        "notch": "none",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "galaxy-note-8",
+        "model": "Galaxy Note 8",
+        "brand": "Samsung",
+        "year": 2017,
+        "screenSize": 6.3,
+        "dimensions": {
+          "h": 162.5,
+          "w": 74.8
+        },
+        "screenDimensions": {
+          "h": 155.4,
+          "w": 69.9
+        },
+        "screenType": "curved",
+        "notch": "none",
+        "glassType": "gorilla-glass5"
+      }
+    ],
+    "Xiaomi": [
+      {
+        "id": "xiaomi-15-ultra",
+        "model": "Xiaomi 15 Ultra",
+        "brand": "Xiaomi",
+        "year": 2025,
+        "screenSize": 6.73,
+        "dimensions": {
+          "h": 162.0,
+          "w": 75.5
+        },
+        "screenDimensions": {
+          "h": 155.0,
+          "w": 70.4
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass7i"
+      },
+      {
+        "id": "xiaomi-15-pro",
+        "model": "Xiaomi 15 Pro",
+        "brand": "Xiaomi",
+        "year": 2025,
+        "screenSize": 6.73,
+        "dimensions": {
+          "h": 161.5,
+          "w": 75.3
+        },
+        "screenDimensions": {
+          "h": 154.5,
+          "w": 70.2
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus2"
+      },
+      {
+        "id": "xiaomi-15",
+        "model": "Xiaomi 15",
+        "brand": "Xiaomi",
+        "year": 2025,
+        "screenSize": 6.36,
+        "dimensions": {
+          "h": 152.8,
+          "w": 71.5
+        },
+        "screenDimensions": {
+          "h": 146.0,
+          "w": 66.4
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "xiaomi-14-ultra",
+        "model": "Xiaomi 14 Ultra",
+        "brand": "Xiaomi",
+        "year": 2024,
+        "screenSize": 6.73,
+        "dimensions": {
+          "h": 161.4,
+          "w": 75.3
+        },
+        "screenDimensions": {
+          "h": 154.5,
+          "w": 70.2
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus2"
+      },
+      {
+        "id": "xiaomi-14-pro",
+        "model": "Xiaomi 14 Pro",
+        "brand": "Xiaomi",
+        "year": 2024,
+        "screenSize": 6.73,
+        "dimensions": {
+          "h": 161.4,
+          "w": 75.3
+        },
+        "screenDimensions": {
+          "h": 154.5,
+          "w": 70.2
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus2"
+      },
+      {
+        "id": "xiaomi-14",
+        "model": "Xiaomi 14",
+        "brand": "Xiaomi",
+        "year": 2024,
+        "screenSize": 6.36,
+        "dimensions": {
+          "h": 152.8,
+          "w": 71.5
+        },
+        "screenDimensions": {
+          "h": 146.0,
+          "w": 66.4
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "xiaomi-13-ultra",
+        "model": "Xiaomi 13 Ultra",
+        "brand": "Xiaomi",
+        "year": 2023,
+        "screenSize": 6.73,
+        "dimensions": {
+          "h": 163.2,
+          "w": 74.6
+        },
+        "screenDimensions": {
+          "h": 156.3,
+          "w": 69.5
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus2"
+      },
+      {
+        "id": "xiaomi-13-pro",
+        "model": "Xiaomi 13 Pro",
+        "brand": "Xiaomi",
+        "year": 2023,
+        "screenSize": 6.73,
+        "dimensions": {
+          "h": 162.9,
+          "w": 74.6
+        },
+        "screenDimensions": {
+          "h": 156.0,
+          "w": 69.5
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus2"
+      },
+      {
+        "id": "xiaomi-13",
+        "model": "Xiaomi 13",
+        "brand": "Xiaomi",
+        "year": 2023,
+        "screenSize": 6.36,
+        "dimensions": {
+          "h": 152.8,
+          "w": 71.5
+        },
+        "screenDimensions": {
+          "h": 146.0,
+          "w": 66.4
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "xiaomi-12-pro",
+        "model": "Xiaomi 12 Pro",
+        "brand": "Xiaomi",
+        "year": 2022,
+        "screenSize": 6.73,
+        "dimensions": {
+          "h": 163.6,
+          "w": 74.6
+        },
+        "screenDimensions": {
+          "h": 156.7,
+          "w": 69.5
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus"
+      },
+      {
+        "id": "xiaomi-12",
+        "model": "Xiaomi 12",
+        "brand": "Xiaomi",
+        "year": 2022,
+        "screenSize": 6.28,
+        "dimensions": {
+          "h": 152.7,
+          "w": 69.9
+        },
+        "screenDimensions": {
+          "h": 146.5,
+          "w": 65.5
+        },
+        "screenType": "flat-2.5d",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus"
+      },
+      {
+        "id": "xiaomi-11-ultra",
+        "model": "Xiaomi 11 Ultra",
+        "brand": "Xiaomi",
+        "year": 2021,
+        "screenSize": 6.81,
+        "dimensions": {
+          "h": 164.3,
+          "w": 74.6
+        },
+        "screenDimensions": {
+          "h": 157.5,
+          "w": 69.8
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus"
+      },
+      {
+        "id": "xiaomi-11",
+        "model": "Xiaomi 11",
+        "brand": "Xiaomi",
+        "year": 2021,
+        "screenSize": 6.81,
+        "dimensions": {
+          "h": 164.3,
+          "w": 74.6
+        },
+        "screenDimensions": {
+          "h": 157.5,
+          "w": 69.8
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus"
+      },
+      {
+        "id": "xiaomi-10-pro",
+        "model": "Xiaomi 10 Pro",
+        "brand": "Xiaomi",
+        "year": 2020,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 162.5,
+          "w": 74.8
+        },
+        "screenDimensions": {
+          "h": 155.4,
+          "w": 69.8
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "xiaomi-10",
+        "model": "Xiaomi 10",
+        "brand": "Xiaomi",
+        "year": 2020,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 162.5,
+          "w": 74.8
+        },
+        "screenDimensions": {
+          "h": 155.4,
+          "w": 69.8
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "xiaomi-9",
+        "model": "Xiaomi 9",
+        "brand": "Xiaomi",
+        "year": 2019,
+        "screenSize": 6.39,
+        "dimensions": {
+          "h": 157.5,
+          "w": 74.7
+        },
+        "screenDimensions": {
+          "h": 150.7,
+          "w": 69.8
+        },
+        "screenType": "flat",
+        "notch": "waterdrop",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "xiaomi-8",
+        "model": "Xiaomi 8",
+        "brand": "Xiaomi",
+        "year": 2018,
+        "screenSize": 6.21,
+        "dimensions": {
+          "h": 154.9,
+          "w": 74.8
+        },
+        "screenDimensions": {
+          "h": 148.5,
+          "w": 69.9
+        },
+        "screenType": "flat",
+        "notch": "notch",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "xiaomi-6",
+        "model": "Xiaomi 6",
+        "brand": "Xiaomi",
+        "year": 2017,
+        "screenSize": 5.15,
+        "dimensions": {
+          "h": 145.2,
+          "w": 70.5
+        },
+        "screenDimensions": {
+          "h": 116.0,
+          "w": 65.5
+        },
+        "screenType": "flat-2.5d",
+        "notch": "none",
+        "glassType": "gorilla-glass4"
+      },
+      {
+        "id": "xiaomi-5",
+        "model": "Xiaomi 5",
+        "brand": "Xiaomi",
+        "year": 2016,
+        "screenSize": 5.15,
+        "dimensions": {
+          "h": 144.6,
+          "w": 69.4
+        },
+        "screenDimensions": {
+          "h": 116.0,
+          "w": 65.0
+        },
+        "screenType": "flat-2.5d",
+        "notch": "none",
+        "glassType": "gorilla-glass4"
+      },
+      {
+        "id": "xiaomi-4",
+        "model": "Xiaomi 4",
+        "brand": "Xiaomi",
+        "year": 2014,
+        "screenSize": 5.0,
+        "dimensions": {
+          "h": 139.2,
+          "w": 68.5
+        },
+        "screenDimensions": {
+          "h": 110.2,
+          "w": 62.8
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass3"
+      }
+    ],
+    "Redmi": [
+      {
+        "id": "redmi-note-14-pro-plus",
+        "model": "Redmi Note 14 Pro+",
+        "brand": "Redmi",
+        "year": 2025,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 162.0,
+          "w": 74.5
+        },
+        "screenDimensions": {
+          "h": 155.0,
+          "w": 69.4
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus2"
+      },
+      {
+        "id": "redmi-note-14-pro",
+        "model": "Redmi Note 14 Pro",
+        "brand": "Redmi",
+        "year": 2025,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 161.5,
+          "w": 74.2
+        },
+        "screenDimensions": {
+          "h": 154.5,
+          "w": 69.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "redmi-note-14",
+        "model": "Redmi Note 14",
+        "brand": "Redmi",
+        "year": 2025,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 161.0,
+          "w": 75.0
+        },
+        "screenDimensions": {
+          "h": 154.0,
+          "w": 70.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "redmi-note-13-pro-plus",
+        "model": "Redmi Note 13 Pro+",
+        "brand": "Redmi",
+        "year": 2024,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 161.4,
+          "w": 74.2
+        },
+        "screenDimensions": {
+          "h": 154.5,
+          "w": 69.0
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus2"
+      },
+      {
+        "id": "redmi-note-13-pro",
+        "model": "Redmi Note 13 Pro",
+        "brand": "Redmi",
+        "year": 2024,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 161.2,
+          "w": 74.2
+        },
+        "screenDimensions": {
+          "h": 154.3,
+          "w": 69.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "redmi-note-13",
+        "model": "Redmi Note 13",
+        "brand": "Redmi",
+        "year": 2024,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 161.1,
+          "w": 75.0
+        },
+        "screenDimensions": {
+          "h": 154.0,
+          "w": 69.5
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass3"
+      },
+      {
+        "id": "redmi-13c",
+        "model": "Redmi 13C",
+        "brand": "Redmi",
+        "year": 2024,
+        "screenSize": 6.74,
+        "dimensions": {
+          "h": 168.0,
+          "w": 77.8
+        },
+        "screenDimensions": {
+          "h": 160.5,
+          "w": 72.8
+        },
+        "screenType": "flat",
+        "notch": "waterdrop",
+        "glassType": "glass"
+      },
+      {
+        "id": "redmi-note-12-pro-plus",
+        "model": "Redmi Note 12 Pro+",
+        "brand": "Redmi",
+        "year": 2023,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 162.9,
+          "w": 76.0
+        },
+        "screenDimensions": {
+          "h": 155.5,
+          "w": 71.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "redmi-note-12-pro",
+        "model": "Redmi Note 12 Pro",
+        "brand": "Redmi",
+        "year": 2023,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 162.9,
+          "w": 76.0
+        },
+        "screenDimensions": {
+          "h": 155.5,
+          "w": 71.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "redmi-note-12",
+        "model": "Redmi Note 12",
+        "brand": "Redmi",
+        "year": 2023,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 165.9,
+          "w": 76.2
+        },
+        "screenDimensions": {
+          "h": 158.0,
+          "w": 71.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass3"
+      },
+      {
+        "id": "redmi-12",
+        "model": "Redmi 12",
+        "brand": "Redmi",
+        "year": 2023,
+        "screenSize": 6.79,
+        "dimensions": {
+          "h": 168.6,
+          "w": 76.3
+        },
+        "screenDimensions": {
+          "h": 161.0,
+          "w": 71.2
+        },
+        "screenType": "flat",
+        "notch": "waterdrop",
+        "glassType": "glass"
+      },
+      {
+        "id": "redmi-note-11-pro",
+        "model": "Redmi Note 11 Pro",
+        "brand": "Redmi",
+        "year": 2022,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 164.2,
+          "w": 76.1
+        },
+        "screenDimensions": {
+          "h": 156.8,
+          "w": 71.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "redmi-note-11",
+        "model": "Redmi Note 11",
+        "brand": "Redmi",
+        "year": 2022,
+        "screenSize": 6.43,
+        "dimensions": {
+          "h": 159.9,
+          "w": 73.9
+        },
+        "screenDimensions": {
+          "h": 152.5,
+          "w": 68.5
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass3"
+      },
+      {
+        "id": "redmi-note-10-pro",
+        "model": "Redmi Note 10 Pro",
+        "brand": "Redmi",
+        "year": 2021,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 164.0,
+          "w": 76.5
+        },
+        "screenDimensions": {
+          "h": 156.7,
+          "w": 71.4
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "redmi-note-10",
+        "model": "Redmi Note 10",
+        "brand": "Redmi",
+        "year": 2021,
+        "screenSize": 6.43,
+        "dimensions": {
+          "h": 160.5,
+          "w": 74.5
+        },
+        "screenDimensions": {
+          "h": 153.2,
+          "w": 69.5
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass3"
+      },
+      {
+        "id": "redmi-note-9-pro",
+        "model": "Redmi Note 9 Pro",
+        "brand": "Redmi",
+        "year": 2020,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 165.8,
+          "w": 76.7
+        },
+        "screenDimensions": {
+          "h": 158.4,
+          "w": 71.6
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "redmi-note-9",
+        "model": "Redmi Note 9",
+        "brand": "Redmi",
+        "year": 2020,
+        "screenSize": 6.53,
+        "dimensions": {
+          "h": 162.3,
+          "w": 77.0
+        },
+        "screenDimensions": {
+          "h": 155.0,
+          "w": 71.9
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass3"
+      },
+      {
+        "id": "redmi-note-8-pro",
+        "model": "Redmi Note 8 Pro",
+        "brand": "Redmi",
+        "year": 2019,
+        "screenSize": 6.53,
+        "dimensions": {
+          "h": 161.4,
+          "w": 76.4
+        },
+        "screenDimensions": {
+          "h": 154.1,
+          "w": 71.3
+        },
+        "screenType": "flat",
+        "notch": "waterdrop",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "redmi-note-8",
+        "model": "Redmi Note 8",
+        "brand": "Redmi",
+        "year": 2019,
+        "screenSize": 6.3,
+        "dimensions": {
+          "h": 158.3,
+          "w": 75.3
+        },
+        "screenDimensions": {
+          "h": 151.2,
+          "w": 70.3
+        },
+        "screenType": "flat",
+        "notch": "waterdrop",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "redmi-note-7",
+        "model": "Redmi Note 7",
+        "brand": "Redmi",
+        "year": 2019,
+        "screenSize": 6.3,
+        "dimensions": {
+          "h": 159.2,
+          "w": 75.2
+        },
+        "screenDimensions": {
+          "h": 152.0,
+          "w": 70.2
+        },
+        "screenType": "flat-2.5d",
+        "notch": "waterdrop",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "redmi-note-6-pro",
+        "model": "Redmi Note 6 Pro",
+        "brand": "Redmi",
+        "year": 2018,
+        "screenSize": 6.26,
+        "dimensions": {
+          "h": 157.9,
+          "w": 76.4
+        },
+        "screenDimensions": {
+          "h": 150.7,
+          "w": 71.4
+        },
+        "screenType": "flat",
+        "notch": "notch",
+        "glassType": "gorilla-glass3"
+      },
+      {
+        "id": "redmi-note-5",
+        "model": "Redmi Note 5",
+        "brand": "Redmi",
+        "year": 2017,
+        "screenSize": 5.99,
+        "dimensions": {
+          "h": 151.5,
+          "w": 72.5
+        },
+        "screenDimensions": {
+          "h": 144.5,
+          "w": 67.7
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass3"
+      }
+    ],
+    "POCO": [
+      {
+        "id": "poco-x7-pro",
+        "model": "POCO X7 Pro",
+        "brand": "POCO",
+        "year": 2025,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 160.4,
+          "w": 74.0
+        },
+        "screenDimensions": {
+          "h": 153.5,
+          "w": 68.9
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "poco-x7",
+        "model": "POCO X7",
+        "brand": "POCO",
+        "year": 2025,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 161.2,
+          "w": 74.3
+        },
+        "screenDimensions": {
+          "h": 154.5,
+          "w": 69.5
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "poco-x6-pro",
+        "model": "POCO X6 Pro",
+        "brand": "POCO",
+        "year": 2024,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 160.4,
+          "w": 74.0
+        },
+        "screenDimensions": {
+          "h": 153.5,
+          "w": 68.9
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "poco-x6",
+        "model": "POCO X6",
+        "brand": "POCO",
+        "year": 2024,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 161.2,
+          "w": 74.3
+        },
+        "screenDimensions": {
+          "h": 154.5,
+          "w": 69.5
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "poco-m6-pro",
+        "model": "POCO M6 Pro",
+        "brand": "POCO",
+        "year": 2024,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 165.9,
+          "w": 76.2
+        },
+        "screenDimensions": {
+          "h": 158.0,
+          "w": 71.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "poco-f5-pro",
+        "model": "POCO F5 Pro",
+        "brand": "POCO",
+        "year": 2023,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 162.8,
+          "w": 76.0
+        },
+        "screenDimensions": {
+          "h": 155.5,
+          "w": 71.0
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "poco-f5",
+        "model": "POCO F5",
+        "brand": "POCO",
+        "year": 2023,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 162.9,
+          "w": 76.0
+        },
+        "screenDimensions": {
+          "h": 155.5,
+          "w": 71.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "poco-x5-pro",
+        "model": "POCO X5 Pro",
+        "brand": "POCO",
+        "year": 2023,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 162.9,
+          "w": 76.0
+        },
+        "screenDimensions": {
+          "h": 155.5,
+          "w": 71.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "poco-x5",
+        "model": "POCO X5",
+        "brand": "POCO",
+        "year": 2023,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 165.9,
+          "w": 76.2
+        },
+        "screenDimensions": {
+          "h": 158.0,
+          "w": 71.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "poco-f4",
+        "model": "POCO F4",
+        "brand": "POCO",
+        "year": 2022,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 163.2,
+          "w": 76.0
+        },
+        "screenDimensions": {
+          "h": 155.8,
+          "w": 71.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "poco-x4-pro",
+        "model": "POCO X4 Pro",
+        "brand": "POCO",
+        "year": 2022,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 164.2,
+          "w": 76.1
+        },
+        "screenDimensions": {
+          "h": 156.8,
+          "w": 71.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "poco-f3",
+        "model": "POCO F3",
+        "brand": "POCO",
+        "year": 2021,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 163.7,
+          "w": 76.4
+        },
+        "screenDimensions": {
+          "h": 156.4,
+          "w": 71.3
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "poco-x3-pro",
+        "model": "POCO X3 Pro",
+        "brand": "POCO",
+        "year": 2021,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 165.3,
+          "w": 76.8
+        },
+        "screenDimensions": {
+          "h": 157.9,
+          "w": 71.7
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass6"
+      }
+    ],
+    "Motorola": [
+      {
+        "id": "moto-edge-50-pro",
+        "model": "Motorola Edge 50 Pro",
+        "brand": "Motorola",
+        "year": 2025,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 161.1,
+          "w": 73.0
+        },
+        "screenDimensions": {
+          "h": 154.0,
+          "w": 68.0
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus2"
+      },
+      {
+        "id": "moto-g85",
+        "model": "Moto G85",
+        "brand": "Motorola",
+        "year": 2025,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 161.7,
+          "w": 74.0
+        },
+        "screenDimensions": {
+          "h": 154.6,
+          "w": 69.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "motorola-edge-50-ultra",
+        "model": "Motorola Edge 50 Ultra",
+        "brand": "Motorola",
+        "year": 2024,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 161.1,
+          "w": 72.4
+        },
+        "screenDimensions": {
+          "h": 154.0,
+          "w": 67.5
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus2"
+      },
+      {
+        "id": "moto-g84",
+        "model": "Moto G84",
+        "brand": "Motorola",
+        "year": 2024,
+        "screenSize": 6.55,
+        "dimensions": {
+          "h": 160.9,
+          "w": 74.4
+        },
+        "screenDimensions": {
+          "h": 153.8,
+          "w": 69.5
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass3"
+      },
+      {
+        "id": "moto-g54",
+        "model": "Moto G54 5G",
+        "brand": "Motorola",
+        "year": 2024,
+        "screenSize": 6.5,
+        "dimensions": {
+          "h": 161.6,
+          "w": 73.8
+        },
+        "screenDimensions": {
+          "h": 154.5,
+          "w": 69.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "motorola-edge-40",
+        "model": "Motorola Edge 40",
+        "brand": "Motorola",
+        "year": 2023,
+        "screenSize": 6.55,
+        "dimensions": {
+          "h": 158.4,
+          "w": 72.0
+        },
+        "screenDimensions": {
+          "h": 151.5,
+          "w": 67.0
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "moto-g73",
+        "model": "Moto G73 5G",
+        "brand": "Motorola",
+        "year": 2023,
+        "screenSize": 6.5,
+        "dimensions": {
+          "h": 161.9,
+          "w": 73.8
+        },
+        "screenDimensions": {
+          "h": 154.5,
+          "w": 69.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass3"
+      },
+      {
+        "id": "motorola-edge-30",
+        "model": "Motorola Edge 30",
+        "brand": "Motorola",
+        "year": 2022,
+        "screenSize": 6.5,
+        "dimensions": {
+          "h": 159.0,
+          "w": 74.5
+        },
+        "screenDimensions": {
+          "h": 151.8,
+          "w": 69.6
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "moto-g52",
+        "model": "Moto G52",
+        "brand": "Motorola",
+        "year": 2022,
+        "screenSize": 6.6,
+        "dimensions": {
+          "h": 160.1,
+          "w": 74.4
+        },
+        "screenDimensions": {
+          "h": 152.7,
+          "w": 69.5
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "moto-g60",
+        "model": "Moto G60",
+        "brand": "Motorola",
+        "year": 2021,
+        "screenSize": 6.8,
+        "dimensions": {
+          "h": 168.9,
+          "w": 76.2
+        },
+        "screenDimensions": {
+          "h": 161.5,
+          "w": 71.1
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass3"
+      },
+      {
+        "id": "moto-g30",
+        "model": "Moto G30",
+        "brand": "Motorola",
+        "year": 2021,
+        "screenSize": 6.5,
+        "dimensions": {
+          "h": 166.0,
+          "w": 75.9
+        },
+        "screenDimensions": {
+          "h": 158.6,
+          "w": 70.9
+        },
+        "screenType": "flat",
+        "notch": "waterdrop",
+        "glassType": "glass"
+      },
+      {
+        "id": "moto-g9-plus",
+        "model": "Moto G9 Plus",
+        "brand": "Motorola",
+        "year": 2020,
+        "screenSize": 6.81,
+        "dimensions": {
+          "h": 170.0,
+          "w": 78.1
+        },
+        "screenDimensions": {
+          "h": 162.6,
+          "w": 72.9
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "moto-g8-plus",
+        "model": "Moto G8 Plus",
+        "brand": "Motorola",
+        "year": 2020,
+        "screenSize": 6.3,
+        "dimensions": {
+          "h": 158.4,
+          "w": 75.8
+        },
+        "screenDimensions": {
+          "h": 151.3,
+          "w": 70.8
+        },
+        "screenType": "flat",
+        "notch": "waterdrop",
+        "glassType": "glass"
+      },
+      {
+        "id": "moto-g7-plus",
+        "model": "Moto G7 Plus",
+        "brand": "Motorola",
+        "year": 2019,
+        "screenSize": 6.24,
+        "dimensions": {
+          "h": 157.0,
+          "w": 75.3
+        },
+        "screenDimensions": {
+          "h": 149.9,
+          "w": 70.4
+        },
+        "screenType": "flat",
+        "notch": "waterdrop",
+        "glassType": "glass"
+      },
+      {
+        "id": "moto-g6-plus",
+        "model": "Moto G6 Plus",
+        "brand": "Motorola",
+        "year": 2018,
+        "screenSize": 5.93,
+        "dimensions": {
+          "h": 153.8,
+          "w": 72.3
+        },
+        "screenDimensions": {
+          "h": 146.7,
+          "w": 67.6
+        },
+        "screenType": "flat-2.5d",
+        "notch": "notch",
+        "glassType": "glass"
+      },
+      {
+        "id": "moto-g5s-plus",
+        "model": "Moto G5S Plus",
+        "brand": "Motorola",
+        "year": 2017,
+        "screenSize": 5.5,
+        "dimensions": {
+          "h": 153.5,
+          "w": 76.2
+        },
+        "screenDimensions": {
+          "h": 121.1,
+          "w": 68.2
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "glass"
+      },
+      {
+        "id": "motorola-razr-50",
+        "model": "Motorola Razr 50",
+        "brand": "Motorola",
+        "year": 2024,
+        "screenSize": 6.9,
+        "dimensions": {
+          "h": 171.3,
+          "w": 74.0
+        },
+        "screenDimensions": {
+          "h": 163.9,
+          "w": 69.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      }
+    ],
+    "Realme": [
+      {
+        "id": "realme-13-pro-plus",
+        "model": "Realme 13 Pro+",
+        "brand": "Realme",
+        "year": 2025,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 162.0,
+          "w": 75.0
+        },
+        "screenDimensions": {
+          "h": 154.9,
+          "w": 69.9
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "realme-gt-7-pro",
+        "model": "Realme GT 7 Pro",
+        "brand": "Realme",
+        "year": 2025,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 162.7,
+          "w": 76.2
+        },
+        "screenDimensions": {
+          "h": 155.5,
+          "w": 71.1
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus2"
+      },
+      {
+        "id": "realme-12-pro-plus",
+        "model": "Realme 12 Pro+",
+        "brand": "Realme",
+        "year": 2024,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 161.5,
+          "w": 74.7
+        },
+        "screenDimensions": {
+          "h": 154.5,
+          "w": 69.6
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "realme-12-pro",
+        "model": "Realme 12 Pro",
+        "brand": "Realme",
+        "year": 2024,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 161.5,
+          "w": 74.7
+        },
+        "screenDimensions": {
+          "h": 154.5,
+          "w": 69.6
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "realme-c65",
+        "model": "Realme C65",
+        "brand": "Realme",
+        "year": 2024,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 165.6,
+          "w": 76.1
+        },
+        "screenDimensions": {
+          "h": 158.0,
+          "w": 71.0
+        },
+        "screenType": "flat",
+        "notch": "waterdrop",
+        "glassType": "glass"
+      },
+      {
+        "id": "realme-gt-6",
+        "model": "Realme GT 6",
+        "brand": "Realme",
+        "year": 2024,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 162.6,
+          "w": 75.6
+        },
+        "screenDimensions": {
+          "h": 155.4,
+          "w": 70.5
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus2"
+      },
+      {
+        "id": "realme-11-pro-plus",
+        "model": "Realme 11 Pro+",
+        "brand": "Realme",
+        "year": 2023,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 161.7,
+          "w": 74.2
+        },
+        "screenDimensions": {
+          "h": 154.8,
+          "w": 69.0
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "realme-11",
+        "model": "Realme 11",
+        "brand": "Realme",
+        "year": 2023,
+        "screenSize": 6.43,
+        "dimensions": {
+          "h": 160.0,
+          "w": 73.7
+        },
+        "screenDimensions": {
+          "h": 152.7,
+          "w": 68.7
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "realme-10-pro-plus",
+        "model": "Realme 10 Pro+",
+        "brand": "Realme",
+        "year": 2022,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 161.7,
+          "w": 74.2
+        },
+        "screenDimensions": {
+          "h": 154.8,
+          "w": 69.0
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "realme-9-pro-plus",
+        "model": "Realme 9 Pro+",
+        "brand": "Realme",
+        "year": 2022,
+        "screenSize": 6.4,
+        "dimensions": {
+          "h": 159.3,
+          "w": 73.3
+        },
+        "screenDimensions": {
+          "h": 152.0,
+          "w": 68.3
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "realme-8-pro",
+        "model": "Realme 8 Pro",
+        "brand": "Realme",
+        "year": 2021,
+        "screenSize": 6.4,
+        "dimensions": {
+          "h": 160.6,
+          "w": 73.9
+        },
+        "screenDimensions": {
+          "h": 153.3,
+          "w": 68.9
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass3"
+      },
+      {
+        "id": "realme-8",
+        "model": "Realme 8",
+        "brand": "Realme",
+        "year": 2021,
+        "screenSize": 6.4,
+        "dimensions": {
+          "h": 160.6,
+          "w": 73.9
+        },
+        "screenDimensions": {
+          "h": 153.3,
+          "w": 68.9
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "realme-7-pro",
+        "model": "Realme 7 Pro",
+        "brand": "Realme",
+        "year": 2020,
+        "screenSize": 6.4,
+        "dimensions": {
+          "h": 160.9,
+          "w": 74.2
+        },
+        "screenDimensions": {
+          "h": 153.6,
+          "w": 69.2
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass3"
+      },
+      {
+        "id": "realme-6-pro",
+        "model": "Realme 6 Pro",
+        "brand": "Realme",
+        "year": 2020,
+        "screenSize": 6.6,
+        "dimensions": {
+          "h": 162.8,
+          "w": 74.7
+        },
+        "screenDimensions": {
+          "h": 155.6,
+          "w": 69.7
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass3"
+      },
+      {
+        "id": "realme-5-pro",
+        "model": "Realme 5 Pro",
+        "brand": "Realme",
+        "year": 2019,
+        "screenSize": 6.3,
+        "dimensions": {
+          "h": 157.8,
+          "w": 74.2
+        },
+        "screenDimensions": {
+          "h": 150.7,
+          "w": 69.3
+        },
+        "screenType": "flat",
+        "notch": "waterdrop",
+        "glassType": "gorilla-glass3"
+      },
+      {
+        "id": "realme-gt-neo-6",
+        "model": "Realme GT Neo6",
+        "brand": "Realme",
+        "year": 2024,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 164.2,
+          "w": 76.3
+        },
+        "screenDimensions": {
+          "h": 156.9,
+          "w": 71.2
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      }
+    ],
+    "OnePlus": [
+      {
+        "id": "oneplus-13",
+        "model": "OnePlus 13",
+        "brand": "OnePlus",
+        "year": 2025,
+        "screenSize": 6.82,
+        "dimensions": {
+          "h": 162.9,
+          "w": 76.0
+        },
+        "screenDimensions": {
+          "h": 155.5,
+          "w": 70.8
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus2"
+      },
+      {
+        "id": "oneplus-13r",
+        "model": "OnePlus 13R",
+        "brand": "OnePlus",
+        "year": 2025,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 161.7,
+          "w": 76.3
+        },
+        "screenDimensions": {
+          "h": 154.7,
+          "w": 71.2
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "oneplus-nord-4",
+        "model": "OnePlus Nord 4",
+        "brand": "OnePlus",
+        "year": 2025,
+        "screenSize": 6.74,
+        "dimensions": {
+          "h": 162.6,
+          "w": 75.0
+        },
+        "screenDimensions": {
+          "h": 155.0,
+          "w": 70.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "oneplus-12",
+        "model": "OnePlus 12",
+        "brand": "OnePlus",
+        "year": 2024,
+        "screenSize": 6.82,
+        "dimensions": {
+          "h": 164.3,
+          "w": 75.8
+        },
+        "screenDimensions": {
+          "h": 157.0,
+          "w": 70.6
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus2"
+      },
+      {
+        "id": "oneplus-nord-ce4",
+        "model": "OnePlus Nord CE4",
+        "brand": "OnePlus",
+        "year": 2024,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 162.0,
+          "w": 75.2
+        },
+        "screenDimensions": {
+          "h": 155.0,
+          "w": 70.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "oneplus-11",
+        "model": "OnePlus 11",
+        "brand": "OnePlus",
+        "year": 2023,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 163.1,
+          "w": 74.1
+        },
+        "screenDimensions": {
+          "h": 156.0,
+          "w": 69.0
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus2"
+      },
+      {
+        "id": "oneplus-nord-3",
+        "model": "OnePlus Nord 3",
+        "brand": "OnePlus",
+        "year": 2023,
+        "screenSize": 6.74,
+        "dimensions": {
+          "h": 161.6,
+          "w": 74.8
+        },
+        "screenDimensions": {
+          "h": 154.5,
+          "w": 69.8
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "oneplus-10-pro",
+        "model": "OnePlus 10 Pro",
+        "brand": "OnePlus",
+        "year": 2022,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 163.2,
+          "w": 73.9
+        },
+        "screenDimensions": {
+          "h": 156.0,
+          "w": 69.0
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus"
+      },
+      {
+        "id": "oneplus-10t",
+        "model": "OnePlus 10T",
+        "brand": "OnePlus",
+        "year": 2022,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 163.3,
+          "w": 75.4
+        },
+        "screenDimensions": {
+          "h": 156.0,
+          "w": 70.4
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "oneplus-nord-2t",
+        "model": "OnePlus Nord 2T",
+        "brand": "OnePlus",
+        "year": 2022,
+        "screenSize": 6.43,
+        "dimensions": {
+          "h": 159.1,
+          "w": 73.2
+        },
+        "screenDimensions": {
+          "h": 151.8,
+          "w": 68.3
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "oneplus-9-pro",
+        "model": "OnePlus 9 Pro",
+        "brand": "OnePlus",
+        "year": 2021,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 163.2,
+          "w": 73.6
+        },
+        "screenDimensions": {
+          "h": 156.0,
+          "w": 68.7
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "oneplus-9",
+        "model": "OnePlus 9",
+        "brand": "OnePlus",
+        "year": 2021,
+        "screenSize": 6.55,
+        "dimensions": {
+          "h": 160.0,
+          "w": 74.2
+        },
+        "screenDimensions": {
+          "h": 152.8,
+          "w": 69.3
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "oneplus-8-pro",
+        "model": "OnePlus 8 Pro",
+        "brand": "OnePlus",
+        "year": 2020,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 165.3,
+          "w": 74.4
+        },
+        "screenDimensions": {
+          "h": 158.1,
+          "w": 69.5
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "oneplus-8",
+        "model": "OnePlus 8",
+        "brand": "OnePlus",
+        "year": 2020,
+        "screenSize": 6.55,
+        "dimensions": {
+          "h": 160.2,
+          "w": 72.9
+        },
+        "screenDimensions": {
+          "h": 153.0,
+          "w": 68.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "oneplus-7-pro",
+        "model": "OnePlus 7 Pro",
+        "brand": "OnePlus",
+        "year": 2019,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 162.6,
+          "w": 75.9
+        },
+        "screenDimensions": {
+          "h": 155.4,
+          "w": 70.9
+        },
+        "screenType": "curved",
+        "notch": "none",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "oneplus-7",
+        "model": "OnePlus 7",
+        "brand": "OnePlus",
+        "year": 2019,
+        "screenSize": 6.41,
+        "dimensions": {
+          "h": 157.7,
+          "w": 74.8
+        },
+        "screenDimensions": {
+          "h": 150.6,
+          "w": 69.9
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "oneplus-6t",
+        "model": "OnePlus 6T",
+        "brand": "OnePlus",
+        "year": 2018,
+        "screenSize": 6.41,
+        "dimensions": {
+          "h": 157.5,
+          "w": 74.8
+        },
+        "screenDimensions": {
+          "h": 150.4,
+          "w": 69.9
+        },
+        "screenType": "flat",
+        "notch": "waterdrop",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "oneplus-5t",
+        "model": "OnePlus 5T",
+        "brand": "OnePlus",
+        "year": 2017,
+        "screenSize": 6.01,
+        "dimensions": {
+          "h": 156.1,
+          "w": 75.0
+        },
+        "screenDimensions": {
+          "h": 149.1,
+          "w": 70.1
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass5"
+      }
+    ],
+    "Honor": [
+      {
+        "id": "honor-magic7-pro",
+        "model": "Honor Magic7 Pro",
+        "brand": "Honor",
+        "year": 2025,
+        "screenSize": 6.8,
+        "dimensions": {
+          "h": 163.6,
+          "w": 77.5
+        },
+        "screenDimensions": {
+          "h": 156.4,
+          "w": 72.4
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-armor2"
+      },
+      {
+        "id": "honor-200-pro",
+        "model": "Honor 200 Pro",
+        "brand": "Honor",
+        "year": 2024,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 163.0,
+          "w": 74.8
+        },
+        "screenDimensions": {
+          "h": 155.9,
+          "w": 69.7
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass7"
+      },
+      {
+        "id": "honor-200",
+        "model": "Honor 200",
+        "brand": "Honor",
+        "year": 2024,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 161.4,
+          "w": 74.8
+        },
+        "screenDimensions": {
+          "h": 154.3,
+          "w": 69.6
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "honor-x9b",
+        "model": "Honor X9b",
+        "brand": "Honor",
+        "year": 2024,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 165.0,
+          "w": 75.7
+        },
+        "screenDimensions": {
+          "h": 157.8,
+          "w": 70.6
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "honor-x8b",
+        "model": "Honor X8b",
+        "brand": "Honor",
+        "year": 2024,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 161.4,
+          "w": 74.5
+        },
+        "screenDimensions": {
+          "h": 154.3,
+          "w": 69.4
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "honor-90",
+        "model": "Honor 90",
+        "brand": "Honor",
+        "year": 2023,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 161.9,
+          "w": 74.0
+        },
+        "screenDimensions": {
+          "h": 154.9,
+          "w": 69.0
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "honor-magic5-pro",
+        "model": "Honor Magic5 Pro",
+        "brand": "Honor",
+        "year": 2023,
+        "screenSize": 6.81,
+        "dimensions": {
+          "h": 163.6,
+          "w": 75.8
+        },
+        "screenDimensions": {
+          "h": 156.5,
+          "w": 70.6
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "honor-70",
+        "model": "Honor 70",
+        "brand": "Honor",
+        "year": 2022,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 161.4,
+          "w": 73.3
+        },
+        "screenDimensions": {
+          "h": 154.2,
+          "w": 68.3
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "honor-50",
+        "model": "Honor 50",
+        "brand": "Honor",
+        "year": 2021,
+        "screenSize": 6.57,
+        "dimensions": {
+          "h": 160.2,
+          "w": 73.8
+        },
+        "screenDimensions": {
+          "h": 153.0,
+          "w": 68.8
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "honor-view30-pro",
+        "model": "Honor View 30 Pro",
+        "brand": "Honor",
+        "year": 2020,
+        "screenSize": 6.57,
+        "dimensions": {
+          "h": 160.3,
+          "w": 74.4
+        },
+        "screenDimensions": {
+          "h": 153.1,
+          "w": 69.5
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "honor-20-pro",
+        "model": "Honor 20 Pro",
+        "brand": "Honor",
+        "year": 2019,
+        "screenSize": 6.26,
+        "dimensions": {
+          "h": 154.6,
+          "w": 74.0
+        },
+        "screenDimensions": {
+          "h": 147.5,
+          "w": 69.1
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "honor-10",
+        "model": "Honor 10",
+        "brand": "Honor",
+        "year": 2018,
+        "screenSize": 5.84,
+        "dimensions": {
+          "h": 149.6,
+          "w": 71.2
+        },
+        "screenDimensions": {
+          "h": 142.9,
+          "w": 66.5
+        },
+        "screenType": "flat",
+        "notch": "notch",
+        "glassType": "gorilla-glass3"
+      }
+    ],
+    "Google": [
+      {
+        "id": "pixel-9-pro-xl",
+        "model": "Pixel 9 Pro XL",
+        "brand": "Google",
+        "year": 2024,
+        "screenSize": 6.8,
+        "dimensions": {
+          "h": 162.8,
+          "w": 76.6
+        },
+        "screenDimensions": {
+          "h": 155.6,
+          "w": 71.5
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus2"
+      },
+      {
+        "id": "pixel-9-pro",
+        "model": "Pixel 9 Pro",
+        "brand": "Google",
+        "year": 2024,
+        "screenSize": 6.3,
+        "dimensions": {
+          "h": 152.8,
+          "w": 72.0
+        },
+        "screenDimensions": {
+          "h": 145.6,
+          "w": 66.9
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus2"
+      },
+      {
+        "id": "pixel-9",
+        "model": "Pixel 9",
+        "brand": "Google",
+        "year": 2024,
+        "screenSize": 6.3,
+        "dimensions": {
+          "h": 152.8,
+          "w": 72.0
+        },
+        "screenDimensions": {
+          "h": 145.6,
+          "w": 66.9
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus2"
+      },
+      {
+        "id": "pixel-8-pro",
+        "model": "Pixel 8 Pro",
+        "brand": "Google",
+        "year": 2023,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 162.6,
+          "w": 76.5
+        },
+        "screenDimensions": {
+          "h": 155.4,
+          "w": 71.4
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus2"
+      },
+      {
+        "id": "pixel-8",
+        "model": "Pixel 8",
+        "brand": "Google",
+        "year": 2023,
+        "screenSize": 6.2,
+        "dimensions": {
+          "h": 150.5,
+          "w": 70.8
+        },
+        "screenDimensions": {
+          "h": 143.3,
+          "w": 65.7
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus2"
+      },
+      {
+        "id": "pixel-7-pro",
+        "model": "Pixel 7 Pro",
+        "brand": "Google",
+        "year": 2022,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 162.9,
+          "w": 76.6
+        },
+        "screenDimensions": {
+          "h": 155.7,
+          "w": 71.5
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus"
+      },
+      {
+        "id": "pixel-7",
+        "model": "Pixel 7",
+        "brand": "Google",
+        "year": 2022,
+        "screenSize": 6.3,
+        "dimensions": {
+          "h": 155.6,
+          "w": 73.2
+        },
+        "screenDimensions": {
+          "h": 148.4,
+          "w": 68.1
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus"
+      },
+      {
+        "id": "pixel-7a",
+        "model": "Pixel 7a",
+        "brand": "Google",
+        "year": 2023,
+        "screenSize": 6.1,
+        "dimensions": {
+          "h": 152.0,
+          "w": 72.9
+        },
+        "screenDimensions": {
+          "h": 145.6,
+          "w": 67.8
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass3"
+      },
+      {
+        "id": "pixel-6-pro",
+        "model": "Pixel 6 Pro",
+        "brand": "Google",
+        "year": 2021,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 163.9,
+          "w": 75.9
+        },
+        "screenDimensions": {
+          "h": 156.7,
+          "w": 70.8
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus"
+      },
+      {
+        "id": "pixel-6",
+        "model": "Pixel 6",
+        "brand": "Google",
+        "year": 2021,
+        "screenSize": 6.4,
+        "dimensions": {
+          "h": 158.6,
+          "w": 74.8
+        },
+        "screenDimensions": {
+          "h": 151.4,
+          "w": 69.7
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus"
+      },
+      {
+        "id": "pixel-5",
+        "model": "Pixel 5",
+        "brand": "Google",
+        "year": 2020,
+        "screenSize": 6.0,
+        "dimensions": {
+          "h": 144.7,
+          "w": 70.4
+        },
+        "screenDimensions": {
+          "h": 137.5,
+          "w": 65.3
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass6"
+      },
+      {
+        "id": "pixel-4-xl",
+        "model": "Pixel 4 XL",
+        "brand": "Google",
+        "year": 2019,
+        "screenSize": 6.3,
+        "dimensions": {
+          "h": 160.4,
+          "w": 75.1
+        },
+        "screenDimensions": {
+          "h": 153.2,
+          "w": 70.0
+        },
+        "screenType": "flat",
+        "notch": "bar",
+        "glassType": "gorilla-glass5"
+      }
+    ],
+    "Oppo": [
+      {
+        "id": "oppo-find-x8-pro",
+        "model": "Oppo Find X8 Pro",
+        "brand": "Oppo",
+        "year": 2025,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 164.3,
+          "w": 76.6
+        },
+        "screenDimensions": {
+          "h": 157.1,
+          "w": 71.5
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass7"
+      },
+      {
+        "id": "oppo-reno12-pro",
+        "model": "Oppo Reno12 Pro",
+        "brand": "Oppo",
+        "year": 2024,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 162.4,
+          "w": 74.2
+        },
+        "screenDimensions": {
+          "h": 155.3,
+          "w": 69.1
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "oppo-reno12",
+        "model": "Oppo Reno12",
+        "brand": "Oppo",
+        "year": 2024,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 162.4,
+          "w": 74.2
+        },
+        "screenDimensions": {
+          "h": 155.3,
+          "w": 69.1
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "oppo-a79",
+        "model": "Oppo A79 5G",
+        "brand": "Oppo",
+        "year": 2024,
+        "screenSize": 6.72,
+        "dimensions": {
+          "h": 166.1,
+          "w": 76.6
+        },
+        "screenDimensions": {
+          "h": 158.5,
+          "w": 71.5
+        },
+        "screenType": "flat",
+        "notch": "waterdrop",
+        "glassType": "glass"
+      },
+      {
+        "id": "oppo-reno11",
+        "model": "Oppo Reno11",
+        "brand": "Oppo",
+        "year": 2023,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 162.4,
+          "w": 74.2
+        },
+        "screenDimensions": {
+          "h": 155.3,
+          "w": 69.1
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "oppo-a98",
+        "model": "Oppo A98 5G",
+        "brand": "Oppo",
+        "year": 2023,
+        "screenSize": 6.72,
+        "dimensions": {
+          "h": 165.5,
+          "w": 76.0
+        },
+        "screenDimensions": {
+          "h": 158.0,
+          "w": 71.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "oppo-reno8-pro",
+        "model": "Oppo Reno8 Pro",
+        "brand": "Oppo",
+        "year": 2022,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 161.7,
+          "w": 74.0
+        },
+        "screenDimensions": {
+          "h": 154.5,
+          "w": 69.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "oppo-find-x5-pro",
+        "model": "Oppo Find X5 Pro",
+        "brand": "Oppo",
+        "year": 2022,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 163.7,
+          "w": 74.0
+        },
+        "screenDimensions": {
+          "h": 156.5,
+          "w": 69.0
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus"
+      },
+      {
+        "id": "oppo-reno6-pro",
+        "model": "Oppo Reno6 Pro",
+        "brand": "Oppo",
+        "year": 2021,
+        "screenSize": 6.55,
+        "dimensions": {
+          "h": 160.8,
+          "w": 73.0
+        },
+        "screenDimensions": {
+          "h": 153.6,
+          "w": 68.1
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "oppo-find-x2-pro",
+        "model": "Oppo Find X2 Pro",
+        "brand": "Oppo",
+        "year": 2020,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 165.2,
+          "w": 74.4
+        },
+        "screenDimensions": {
+          "h": 158.0,
+          "w": 69.5
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "oppo-reno-10x-zoom",
+        "model": "Oppo Reno 10x Zoom",
+        "brand": "Oppo",
+        "year": 2019,
+        "screenSize": 6.6,
+        "dimensions": {
+          "h": 162.0,
+          "w": 77.2
+        },
+        "screenDimensions": {
+          "h": 154.8,
+          "w": 72.2
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass6"
+      }
+    ],
+    "Nothing": [
+      {
+        "id": "nothing-phone-2a",
+        "model": "Nothing Phone (2a)",
+        "brand": "Nothing",
+        "year": 2024,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 161.7,
+          "w": 76.3
+        },
+        "screenDimensions": {
+          "h": 154.5,
+          "w": 71.2
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "nothing-phone-2",
+        "model": "Nothing Phone (2)",
+        "brand": "Nothing",
+        "year": 2023,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 162.1,
+          "w": 76.4
+        },
+        "screenDimensions": {
+          "h": 154.9,
+          "w": 71.3
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus2"
+      },
+      {
+        "id": "nothing-phone-1",
+        "model": "Nothing Phone (1)",
+        "brand": "Nothing",
+        "year": 2022,
+        "screenSize": 6.55,
+        "dimensions": {
+          "h": 159.2,
+          "w": 75.8
+        },
+        "screenDimensions": {
+          "h": 151.9,
+          "w": 70.8
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "nothing-phone-3a",
+        "model": "Nothing Phone (3a)",
+        "brand": "Nothing",
+        "year": 2025,
+        "screenSize": 6.77,
+        "dimensions": {
+          "h": 163.5,
+          "w": 76.6
+        },
+        "screenDimensions": {
+          "h": 156.3,
+          "w": 71.5
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      }
+    ],
+    "CMF": [
+      {
+        "id": "cmf-phone-2-pro",
+        "model": "CMF Phone 2 Pro",
+        "brand": "CMF",
+        "year": 2025,
+        "screenSize": 6.77,
+        "dimensions": {
+          "h": 163.0,
+          "w": 77.7
+        },
+        "screenDimensions": {
+          "h": 155.9,
+          "w": 72.6
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "cmf-phone-1",
+        "model": "CMF Phone 1",
+        "brand": "CMF",
+        "year": 2024,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 162.0,
+          "w": 76.9
+        },
+        "screenDimensions": {
+          "h": 154.9,
+          "w": 71.8
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      }
+    ],
+    "Vivo": [
+      {
+        "id": "vivo-x200-pro",
+        "model": "Vivo X200 Pro",
+        "brand": "Vivo",
+        "year": 2025,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 163.8,
+          "w": 75.9
+        },
+        "screenDimensions": {
+          "h": 156.6,
+          "w": 70.8
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-armor"
+      },
+      {
+        "id": "vivo-v40-pro",
+        "model": "Vivo V40 Pro",
+        "brand": "Vivo",
+        "year": 2024,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 164.4,
+          "w": 75.2
+        },
+        "screenDimensions": {
+          "h": 157.3,
+          "w": 70.0
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "vivo-v30-pro",
+        "model": "Vivo V30 Pro",
+        "brand": "Vivo",
+        "year": 2024,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 164.4,
+          "w": 75.2
+        },
+        "screenDimensions": {
+          "h": 157.3,
+          "w": 70.0
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "vivo-y200-pro",
+        "model": "Vivo Y200 Pro",
+        "brand": "Vivo",
+        "year": 2024,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 164.4,
+          "w": 75.6
+        },
+        "screenDimensions": {
+          "h": 157.2,
+          "w": 70.5
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "vivo-v29",
+        "model": "Vivo V29",
+        "brand": "Vivo",
+        "year": 2023,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 164.1,
+          "w": 74.2
+        },
+        "screenDimensions": {
+          "h": 157.0,
+          "w": 69.1
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "vivo-y100",
+        "model": "Vivo Y100",
+        "brand": "Vivo",
+        "year": 2023,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 165.0,
+          "w": 76.0
+        },
+        "screenDimensions": {
+          "h": 157.5,
+          "w": 71.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "vivo-v25-pro",
+        "model": "Vivo V25 Pro",
+        "brand": "Vivo",
+        "year": 2022,
+        "screenSize": 6.56,
+        "dimensions": {
+          "h": 160.1,
+          "w": 73.2
+        },
+        "screenDimensions": {
+          "h": 152.9,
+          "w": 68.3
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "vivo-x80-pro",
+        "model": "Vivo X80 Pro",
+        "brand": "Vivo",
+        "year": 2022,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 164.6,
+          "w": 75.0
+        },
+        "screenDimensions": {
+          "h": 157.4,
+          "w": 69.9
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus"
+      },
+      {
+        "id": "vivo-x70-pro-plus",
+        "model": "Vivo X70 Pro+",
+        "brand": "Vivo",
+        "year": 2021,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 164.6,
+          "w": 75.0
+        },
+        "screenDimensions": {
+          "h": 157.4,
+          "w": 69.9
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus"
+      },
+      {
+        "id": "vivo-x51",
+        "model": "Vivo X51 5G",
+        "brand": "Vivo",
+        "year": 2020,
+        "screenSize": 6.56,
+        "dimensions": {
+          "h": 160.4,
+          "w": 75.5
+        },
+        "screenDimensions": {
+          "h": 153.2,
+          "w": 70.5
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      }
+    ],
+    "Sony": [
+      {
+        "id": "xperia-1-vii",
+        "model": "Xperia 1 VII",
+        "brand": "Sony",
+        "year": 2025,
+        "screenSize": 6.5,
+        "dimensions": {
+          "h": 162.0,
+          "w": 73.0
+        },
+        "screenDimensions": {
+          "h": 158.0,
+          "w": 68.0
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass-victus2"
+      },
+      {
+        "id": "xperia-1-vi",
+        "model": "Xperia 1 VI",
+        "brand": "Sony",
+        "year": 2024,
+        "screenSize": 6.5,
+        "dimensions": {
+          "h": 162.0,
+          "w": 73.0
+        },
+        "screenDimensions": {
+          "h": 158.0,
+          "w": 68.0
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass-victus2"
+      },
+      {
+        "id": "xperia-10-vi",
+        "model": "Xperia 10 VI",
+        "brand": "Sony",
+        "year": 2024,
+        "screenSize": 6.1,
+        "dimensions": {
+          "h": 155.0,
+          "w": 68.0
+        },
+        "screenDimensions": {
+          "h": 151.0,
+          "w": 63.5
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass-victus"
+      },
+      {
+        "id": "xperia-1-v",
+        "model": "Xperia 1 V",
+        "brand": "Sony",
+        "year": 2023,
+        "screenSize": 6.5,
+        "dimensions": {
+          "h": 165.0,
+          "w": 71.0
+        },
+        "screenDimensions": {
+          "h": 161.0,
+          "w": 67.0
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass-victus2"
+      },
+      {
+        "id": "xperia-5-v",
+        "model": "Xperia 5 V",
+        "brand": "Sony",
+        "year": 2023,
+        "screenSize": 6.1,
+        "dimensions": {
+          "h": 154.0,
+          "w": 68.0
+        },
+        "screenDimensions": {
+          "h": 150.0,
+          "w": 63.5
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass-victus2"
+      },
+      {
+        "id": "xperia-10-v",
+        "model": "Xperia 10 V",
+        "brand": "Sony",
+        "year": 2023,
+        "screenSize": 6.1,
+        "dimensions": {
+          "h": 155.0,
+          "w": 68.0
+        },
+        "screenDimensions": {
+          "h": 151.0,
+          "w": 63.5
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass-victus"
+      },
+      {
+        "id": "xperia-1-iv",
+        "model": "Xperia 1 IV",
+        "brand": "Sony",
+        "year": 2022,
+        "screenSize": 6.5,
+        "dimensions": {
+          "h": 165.0,
+          "w": 71.0
+        },
+        "screenDimensions": {
+          "h": 161.0,
+          "w": 67.0
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass-victus"
+      },
+      {
+        "id": "xperia-5-iv",
+        "model": "Xperia 5 IV",
+        "brand": "Sony",
+        "year": 2022,
+        "screenSize": 6.1,
+        "dimensions": {
+          "h": 156.0,
+          "w": 67.0
+        },
+        "screenDimensions": {
+          "h": 152.0,
+          "w": 63.0
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass-victus"
+      },
+      {
+        "id": "xperia-1-iii",
+        "model": "Xperia 1 III",
+        "brand": "Sony",
+        "year": 2021,
+        "screenSize": 6.5,
+        "dimensions": {
+          "h": 165.0,
+          "w": 71.0
+        },
+        "screenDimensions": {
+          "h": 161.0,
+          "w": 67.0
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass-victus"
+      },
+      {
+        "id": "xperia-1-ii",
+        "model": "Xperia 1 II",
+        "brand": "Sony",
+        "year": 2020,
+        "screenSize": 6.5,
+        "dimensions": {
+          "h": 166.0,
+          "w": 72.0
+        },
+        "screenDimensions": {
+          "h": 162.0,
+          "w": 68.0
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass6"
+      },
+      {
+        "id": "xperia-1",
+        "model": "Xperia 1",
+        "brand": "Sony",
+        "year": 2019,
+        "screenSize": 6.5,
+        "dimensions": {
+          "h": 167.0,
+          "w": 72.0
+        },
+        "screenDimensions": {
+          "h": 163.0,
+          "w": 68.0
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass6"
+      },
+      {
+        "id": "xperia-xz3",
+        "model": "Xperia XZ3",
+        "brand": "Sony",
+        "year": 2018,
+        "screenSize": 6.0,
+        "dimensions": {
+          "h": 158.0,
+          "w": 73.0
+        },
+        "screenDimensions": {
+          "h": 152.0,
+          "w": 68.0
+        },
+        "screenType": "curved",
+        "notch": "none",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "xperia-xz1",
+        "model": "Xperia XZ1",
+        "brand": "Sony",
+        "year": 2017,
+        "screenSize": 5.2,
+        "dimensions": {
+          "h": 148.0,
+          "w": 73.0
+        },
+        "screenDimensions": {
+          "h": 117.0,
+          "w": 66.0
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass5"
+      }
+    ],
+    "Asus": [
+      {
+        "id": "asus-rog-phone-9-pro",
+        "model": "Asus ROG Phone 9 Pro",
+        "brand": "Asus",
+        "year": 2024,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 163.8,
+          "w": 76.8
+        },
+        "screenDimensions": {
+          "h": 156.5,
+          "w": 71.6
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus2"
+      },
+      {
+        "id": "asus-rog-phone-8",
+        "model": "Asus ROG Phone 8",
+        "brand": "Asus",
+        "year": 2024,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 163.8,
+          "w": 76.8
+        },
+        "screenDimensions": {
+          "h": 156.5,
+          "w": 71.6
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus2"
+      },
+      {
+        "id": "asus-rog-phone-7",
+        "model": "Asus ROG Phone 7",
+        "brand": "Asus",
+        "year": 2023,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 173.0,
+          "w": 77.0
+        },
+        "screenDimensions": {
+          "h": 165.0,
+          "w": 72.0
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass-victus"
+      },
+      {
+        "id": "asus-zenfone-11-ultra",
+        "model": "Asus Zenfone 11 Ultra",
+        "brand": "Asus",
+        "year": 2024,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 163.8,
+          "w": 76.8
+        },
+        "screenDimensions": {
+          "h": 156.5,
+          "w": 71.6
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus2"
+      },
+      {
+        "id": "asus-zenfone-10",
+        "model": "Asus Zenfone 10",
+        "brand": "Asus",
+        "year": 2023,
+        "screenSize": 5.92,
+        "dimensions": {
+          "h": 146.5,
+          "w": 68.1
+        },
+        "screenDimensions": {
+          "h": 139.4,
+          "w": 63.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus"
+      },
+      {
+        "id": "asus-zenfone-9",
+        "model": "Asus Zenfone 9",
+        "brand": "Asus",
+        "year": 2022,
+        "screenSize": 5.9,
+        "dimensions": {
+          "h": 146.5,
+          "w": 68.1
+        },
+        "screenDimensions": {
+          "h": 139.4,
+          "w": 63.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus"
+      },
+      {
+        "id": "asus-rog-phone-5",
+        "model": "Asus ROG Phone 5",
+        "brand": "Asus",
+        "year": 2021,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 172.8,
+          "w": 77.3
+        },
+        "screenDimensions": {
+          "h": 165.0,
+          "w": 72.3
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass-victus"
+      }
+    ],
+    "ZTE": [
+      {
+        "id": "zte-nubia-red-magic-10-pro",
+        "model": "Nubia Red Magic 10 Pro",
+        "brand": "ZTE",
+        "year": 2024,
+        "screenSize": 6.85,
+        "dimensions": {
+          "h": 165.4,
+          "w": 77.6
+        },
+        "screenDimensions": {
+          "h": 158.0,
+          "w": 72.5
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "zte-nubia-red-magic-9-pro",
+        "model": "Nubia Red Magic 9 Pro",
+        "brand": "ZTE",
+        "year": 2023,
+        "screenSize": 6.8,
+        "dimensions": {
+          "h": 164.5,
+          "w": 76.4
+        },
+        "screenDimensions": {
+          "h": 157.0,
+          "w": 71.3
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "zte-axon-60-ultra",
+        "model": "ZTE Axon 60 Ultra",
+        "brand": "ZTE",
+        "year": 2024,
+        "screenSize": 6.8,
+        "dimensions": {
+          "h": 163.5,
+          "w": 76.0
+        },
+        "screenDimensions": {
+          "h": 156.3,
+          "w": 71.0
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass7"
+      },
+      {
+        "id": "zte-axon-40-ultra",
+        "model": "ZTE Axon 40 Ultra",
+        "brand": "ZTE",
+        "year": 2022,
+        "screenSize": 6.8,
+        "dimensions": {
+          "h": 163.6,
+          "w": 74.7
+        },
+        "screenDimensions": {
+          "h": 156.4,
+          "w": 69.7
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass-victus"
+      },
+      {
+        "id": "zte-nubia-red-magic-7",
+        "model": "Nubia Red Magic 7",
+        "brand": "ZTE",
+        "year": 2022,
+        "screenSize": 6.8,
+        "dimensions": {
+          "h": 168.6,
+          "w": 77.0
+        },
+        "screenDimensions": {
+          "h": 161.1,
+          "w": 71.9
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass5"
+      }
+    ],
+    "TCL": [
+      {
+        "id": "tcl-60-xe",
+        "model": "TCL 60 XE",
+        "brand": "TCL",
+        "year": 2025,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 166.8,
+          "w": 76.7
+        },
+        "screenDimensions": {
+          "h": 159.2,
+          "w": 71.6
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "tcl-50-5g",
+        "model": "TCL 50 5G",
+        "brand": "TCL",
+        "year": 2024,
+        "screenSize": 6.6,
+        "dimensions": {
+          "h": 163.5,
+          "w": 75.5
+        },
+        "screenDimensions": {
+          "h": 155.8,
+          "w": 70.5
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "tcl-50-xl",
+        "model": "TCL 50 XL",
+        "brand": "TCL",
+        "year": 2024,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 168.0,
+          "w": 77.5
+        },
+        "screenDimensions": {
+          "h": 160.4,
+          "w": 72.4
+        },
+        "screenType": "flat",
+        "notch": "waterdrop",
+        "glassType": "glass"
+      },
+      {
+        "id": "tcl-40-se",
+        "model": "TCL 40 SE",
+        "brand": "TCL",
+        "year": 2023,
+        "screenSize": 6.75,
+        "dimensions": {
+          "h": 167.5,
+          "w": 77.1
+        },
+        "screenDimensions": {
+          "h": 159.5,
+          "w": 72.0
+        },
+        "screenType": "flat",
+        "notch": "waterdrop",
+        "glassType": "glass"
+      },
+      {
+        "id": "tcl-40-nxtpaper",
+        "model": "TCL 40 NXTPAPER",
+        "brand": "TCL",
+        "year": 2023,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 165.0,
+          "w": 77.2
+        },
+        "screenDimensions": {
+          "h": 157.6,
+          "w": 72.2
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "tcl-30",
+        "model": "TCL 30",
+        "brand": "TCL",
+        "year": 2022,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 165.0,
+          "w": 76.4
+        },
+        "screenDimensions": {
+          "h": 157.6,
+          "w": 71.4
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "tcl-20-pro-5g",
+        "model": "TCL 20 Pro 5G",
+        "brand": "TCL",
+        "year": 2021,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 164.2,
+          "w": 73.8
+        },
+        "screenDimensions": {
+          "h": 157.0,
+          "w": 68.9
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "tcl-20-se",
+        "model": "TCL 20 SE",
+        "brand": "TCL",
+        "year": 2021,
+        "screenSize": 6.82,
+        "dimensions": {
+          "h": 169.5,
+          "w": 78.5
+        },
+        "screenDimensions": {
+          "h": 162.1,
+          "w": 73.5
+        },
+        "screenType": "flat",
+        "notch": "waterdrop",
+        "glassType": "glass"
+      }
+    ],
+    "Nokia": [
+      {
+        "id": "nokia-g42",
+        "model": "Nokia G42 5G",
+        "brand": "Nokia",
+        "year": 2023,
+        "screenSize": 6.56,
+        "dimensions": {
+          "h": 164.6,
+          "w": 75.9
+        },
+        "screenDimensions": {
+          "h": 157.0,
+          "w": 70.8
+        },
+        "screenType": "flat",
+        "notch": "waterdrop",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "nokia-g22",
+        "model": "Nokia G22",
+        "brand": "Nokia",
+        "year": 2023,
+        "screenSize": 6.52,
+        "dimensions": {
+          "h": 164.0,
+          "w": 75.6
+        },
+        "screenDimensions": {
+          "h": 156.5,
+          "w": 70.5
+        },
+        "screenType": "flat",
+        "notch": "waterdrop",
+        "glassType": "glass"
+      },
+      {
+        "id": "nokia-c32",
+        "model": "Nokia C32",
+        "brand": "Nokia",
+        "year": 2023,
+        "screenSize": 6.52,
+        "dimensions": {
+          "h": 164.6,
+          "w": 75.9
+        },
+        "screenDimensions": {
+          "h": 157.0,
+          "w": 70.8
+        },
+        "screenType": "flat",
+        "notch": "waterdrop",
+        "glassType": "glass"
+      },
+      {
+        "id": "nokia-x30",
+        "model": "Nokia X30 5G",
+        "brand": "Nokia",
+        "year": 2022,
+        "screenSize": 6.43,
+        "dimensions": {
+          "h": 158.9,
+          "w": 73.9
+        },
+        "screenDimensions": {
+          "h": 151.6,
+          "w": 68.9
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "nokia-g60",
+        "model": "Nokia G60 5G",
+        "brand": "Nokia",
+        "year": 2022,
+        "screenSize": 6.58,
+        "dimensions": {
+          "h": 165.7,
+          "w": 76.2
+        },
+        "screenDimensions": {
+          "h": 158.2,
+          "w": 71.1
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "nokia-g21",
+        "model": "Nokia G21",
+        "brand": "Nokia",
+        "year": 2022,
+        "screenSize": 6.5,
+        "dimensions": {
+          "h": 165.0,
+          "w": 76.2
+        },
+        "screenDimensions": {
+          "h": 157.6,
+          "w": 71.1
+        },
+        "screenType": "flat",
+        "notch": "waterdrop",
+        "glassType": "glass"
+      },
+      {
+        "id": "nokia-g20",
+        "model": "Nokia G20",
+        "brand": "Nokia",
+        "year": 2021,
+        "screenSize": 6.5,
+        "dimensions": {
+          "h": 164.9,
+          "w": 75.9
+        },
+        "screenDimensions": {
+          "h": 157.5,
+          "w": 70.9
+        },
+        "screenType": "flat",
+        "notch": "waterdrop",
+        "glassType": "glass"
+      },
+      {
+        "id": "nokia-g10",
+        "model": "Nokia G10",
+        "brand": "Nokia",
+        "year": 2021,
+        "screenSize": 6.52,
+        "dimensions": {
+          "h": 165.0,
+          "w": 76.1
+        },
+        "screenDimensions": {
+          "h": 157.6,
+          "w": 71.0
+        },
+        "screenType": "flat",
+        "notch": "waterdrop",
+        "glassType": "glass"
+      },
+      {
+        "id": "nokia-5-4",
+        "model": "Nokia 5.4",
+        "brand": "Nokia",
+        "year": 2021,
+        "screenSize": 6.39,
+        "dimensions": {
+          "h": 160.1,
+          "w": 74.2
+        },
+        "screenDimensions": {
+          "h": 152.8,
+          "w": 69.3
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "nokia-3-4",
+        "model": "Nokia 3.4",
+        "brand": "Nokia",
+        "year": 2021,
+        "screenSize": 6.39,
+        "dimensions": {
+          "h": 160.8,
+          "w": 75.1
+        },
+        "screenDimensions": {
+          "h": 153.5,
+          "w": 70.1
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "nokia-7-2",
+        "model": "Nokia 7.2",
+        "brand": "Nokia",
+        "year": 2019,
+        "screenSize": 6.3,
+        "dimensions": {
+          "h": 159.9,
+          "w": 75.2
+        },
+        "screenDimensions": {
+          "h": 152.6,
+          "w": 70.2
+        },
+        "screenType": "flat",
+        "notch": "waterdrop",
+        "glassType": "gorilla-glass3"
+      },
+      {
+        "id": "nokia-6-2",
+        "model": "Nokia 6.2",
+        "brand": "Nokia",
+        "year": 2019,
+        "screenSize": 6.3,
+        "dimensions": {
+          "h": 159.9,
+          "w": 75.2
+        },
+        "screenDimensions": {
+          "h": 152.6,
+          "w": 70.2
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass3"
+      },
+      {
+        "id": "nokia-8-1",
+        "model": "Nokia 8.1",
+        "brand": "Nokia",
+        "year": 2018,
+        "screenSize": 6.18,
+        "dimensions": {
+          "h": 154.8,
+          "w": 75.8
+        },
+        "screenDimensions": {
+          "h": 147.7,
+          "w": 70.9
+        },
+        "screenType": "flat",
+        "notch": "notch",
+        "glassType": "gorilla-glass3"
+      },
+      {
+        "id": "nokia-7-plus",
+        "model": "Nokia 7 Plus",
+        "brand": "Nokia",
+        "year": 2018,
+        "screenSize": 6.0,
+        "dimensions": {
+          "h": 157.9,
+          "w": 75.0
+        },
+        "screenDimensions": {
+          "h": 150.8,
+          "w": 70.1
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass3"
+      },
+      {
+        "id": "nokia-6-1",
+        "model": "Nokia 6.1",
+        "brand": "Nokia",
+        "year": 2018,
+        "screenSize": 5.5,
+        "dimensions": {
+          "h": 148.8,
+          "w": 75.8
+        },
+        "screenDimensions": {
+          "h": 121.1,
+          "w": 68.2
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass3"
+      },
+      {
+        "id": "nokia-8",
+        "model": "Nokia 8",
+        "brand": "Nokia",
+        "year": 2017,
+        "screenSize": 5.3,
+        "dimensions": {
+          "h": 151.5,
+          "w": 73.7
+        },
+        "screenDimensions": {
+          "h": 117.8,
+          "w": 66.1
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "nokia-6",
+        "model": "Nokia 6",
+        "brand": "Nokia",
+        "year": 2017,
+        "screenSize": 5.5,
+        "dimensions": {
+          "h": 154.0,
+          "w": 75.8
+        },
+        "screenDimensions": {
+          "h": 121.1,
+          "w": 68.2
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass3"
+      },
+      {
+        "id": "nokia-3",
+        "model": "Nokia 3",
+        "brand": "Nokia",
+        "year": 2017,
+        "screenSize": 5.0,
+        "dimensions": {
+          "h": 133.6,
+          "w": 71.4
+        },
+        "screenDimensions": {
+          "h": 110.7,
+          "w": 63.6
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "glass"
+      }
+    ],
+    "Infinix": [
+      {
+        "id": "infinix-gt-20-pro",
+        "model": "Infinix GT 20 Pro",
+        "brand": "Infinix",
+        "year": 2024,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 164.3,
+          "w": 75.4
+        },
+        "screenDimensions": {
+          "h": 156.9,
+          "w": 70.2
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "infinix-note-40-pro-plus",
+        "model": "Infinix Note 40 Pro+",
+        "brand": "Infinix",
+        "year": 2024,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 164.3,
+          "w": 75.4
+        },
+        "screenDimensions": {
+          "h": 156.9,
+          "w": 70.2
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "infinix-zero-30",
+        "model": "Infinix Zero 30",
+        "brand": "Infinix",
+        "year": 2023,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 164.0,
+          "w": 74.4
+        },
+        "screenDimensions": {
+          "h": 156.9,
+          "w": 69.4
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "infinix-hot-40-pro",
+        "model": "Infinix Hot 40 Pro",
+        "brand": "Infinix",
+        "year": 2023,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 164.9,
+          "w": 76.0
+        },
+        "screenDimensions": {
+          "h": 157.6,
+          "w": 70.9
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "infinix-note-12",
+        "model": "Infinix Note 12",
+        "brand": "Infinix",
+        "year": 2022,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 164.8,
+          "w": 75.9
+        },
+        "screenDimensions": {
+          "h": 157.4,
+          "w": 70.8
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "infinix-zero-20",
+        "model": "Infinix Zero 20",
+        "brand": "Infinix",
+        "year": 2022,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 164.6,
+          "w": 75.8
+        },
+        "screenDimensions": {
+          "h": 157.1,
+          "w": 70.7
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      }
+    ],
+    "Tecno": [
+      {
+        "id": "tecno-camon-30-premier",
+        "model": "Tecno Camon 30 Premier",
+        "brand": "Tecno",
+        "year": 2024,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 164.3,
+          "w": 75.0
+        },
+        "screenDimensions": {
+          "h": 157.0,
+          "w": 69.9
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "tecno-phantom-v-fold",
+        "model": "Tecno Phantom V Fold",
+        "brand": "Tecno",
+        "year": 2023,
+        "screenSize": 7.85,
+        "dimensions": {
+          "h": 155.7,
+          "w": 132.5
+        },
+        "screenDimensions": {
+          "h": 148.4,
+          "w": 125.4
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "tecno-camon-20-pro",
+        "model": "Tecno Camon 20 Pro",
+        "brand": "Tecno",
+        "year": 2023,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 162.7,
+          "w": 74.3
+        },
+        "screenDimensions": {
+          "h": 155.4,
+          "w": 69.3
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "tecno-spark-20-pro",
+        "model": "Tecno Spark 20 Pro",
+        "brand": "Tecno",
+        "year": 2023,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 164.6,
+          "w": 75.6
+        },
+        "screenDimensions": {
+          "h": 157.3,
+          "w": 70.5
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "tecno-pova-5-pro",
+        "model": "Tecno Pova 5 Pro",
+        "brand": "Tecno",
+        "year": 2023,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 164.7,
+          "w": 76.0
+        },
+        "screenDimensions": {
+          "h": 157.4,
+          "w": 70.9
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      }
+    ],
+    "Cubot": [
+      {
+        "id": "cubot-p80",
+        "model": "Cubot P80",
+        "brand": "Cubot",
+        "year": 2024,
+        "screenSize": 6.58,
+        "dimensions": {
+          "h": 164.0,
+          "w": 75.5
+        },
+        "screenDimensions": {
+          "h": 156.6,
+          "w": 70.4
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "cubot-x70",
+        "model": "Cubot X70",
+        "brand": "Cubot",
+        "year": 2023,
+        "screenSize": 6.36,
+        "dimensions": {
+          "h": 162.0,
+          "w": 74.5
+        },
+        "screenDimensions": {
+          "h": 154.7,
+          "w": 69.4
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "cubot-note-30",
+        "model": "Cubot Note 30",
+        "brand": "Cubot",
+        "year": 2023,
+        "screenSize": 6.5,
+        "dimensions": {
+          "h": 165.5,
+          "w": 76.2
+        },
+        "screenDimensions": {
+          "h": 158.1,
+          "w": 71.1
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "cubot-x50",
+        "model": "Cubot X50",
+        "brand": "Cubot",
+        "year": 2022,
+        "screenSize": 6.5,
+        "dimensions": {
+          "h": 164.0,
+          "w": 75.5
+        },
+        "screenDimensions": {
+          "h": 156.6,
+          "w": 70.4
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      }
+    ],
+    "Blackview": [
+      {
+        "id": "blackview-bv9300-pro",
+        "model": "Blackview BV9300 Pro",
+        "brand": "Blackview",
+        "year": 2024,
+        "screenSize": 6.5,
+        "dimensions": {
+          "h": 173.0,
+          "w": 86.0
+        },
+        "screenDimensions": {
+          "h": 154.0,
+          "w": 72.5
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "blackview-bv8900",
+        "model": "Blackview BV8900",
+        "brand": "Blackview",
+        "year": 2023,
+        "screenSize": 6.5,
+        "dimensions": {
+          "h": 170.0,
+          "w": 84.0
+        },
+        "screenDimensions": {
+          "h": 154.0,
+          "w": 72.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "blackview-bl9000",
+        "model": "Blackview BL9000",
+        "brand": "Blackview",
+        "year": 2024,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 172.0,
+          "w": 82.5
+        },
+        "screenDimensions": {
+          "h": 158.0,
+          "w": 71.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "blackview-bv7200",
+        "model": "Blackview BV7200",
+        "brand": "Blackview",
+        "year": 2023,
+        "screenSize": 6.56,
+        "dimensions": {
+          "h": 170.5,
+          "w": 80.5
+        },
+        "screenDimensions": {
+          "h": 157.0,
+          "w": 71.5
+        },
+        "screenType": "flat",
+        "notch": "waterdrop",
+        "glassType": "glass"
+      }
+    ],
+    "Ulefone": [
+      {
+        "id": "ulefone-armor-26",
+        "model": "Ulefone Armor 26",
+        "brand": "Ulefone",
+        "year": 2024,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 173.0,
+          "w": 85.0
+        },
+        "screenDimensions": {
+          "h": 158.0,
+          "w": 72.5
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "ulefone-armor-24",
+        "model": "Ulefone Armor 24",
+        "brand": "Ulefone",
+        "year": 2023,
+        "screenSize": 6.6,
+        "dimensions": {
+          "h": 172.0,
+          "w": 84.0
+        },
+        "screenDimensions": {
+          "h": 155.8,
+          "w": 71.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "ulefone-armor-22",
+        "model": "Ulefone Armor 22",
+        "brand": "Ulefone",
+        "year": 2023,
+        "screenSize": 5.93,
+        "dimensions": {
+          "h": 165.0,
+          "w": 83.0
+        },
+        "screenDimensions": {
+          "h": 141.7,
+          "w": 68.0
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "glass"
+      },
+      {
+        "id": "ulefone-armor-20",
+        "model": "Ulefone Armor 20",
+        "brand": "Ulefone",
+        "year": 2022,
+        "screenSize": 6.58,
+        "dimensions": {
+          "h": 171.0,
+          "w": 83.5
+        },
+        "screenDimensions": {
+          "h": 157.0,
+          "w": 71.5
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      }
+    ],
+    "Doogee": [
+      {
+        "id": "doogee-v40-pro",
+        "model": "Doogee V40 Pro",
+        "brand": "Doogee",
+        "year": 2023,
+        "screenSize": 6.58,
+        "dimensions": {
+          "h": 172.0,
+          "w": 82.5
+        },
+        "screenDimensions": {
+          "h": 157.0,
+          "w": 71.5
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "doogee-s100-pro",
+        "model": "Doogee S100 Pro",
+        "brand": "Doogee",
+        "year": 2024,
+        "screenSize": 6.58,
+        "dimensions": {
+          "h": 173.0,
+          "w": 84.0
+        },
+        "screenDimensions": {
+          "h": 157.0,
+          "w": 71.5
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "doogee-v30",
+        "model": "Doogee V30",
+        "brand": "Doogee",
+        "year": 2022,
+        "screenSize": 6.58,
+        "dimensions": {
+          "h": 172.0,
+          "w": 82.5
+        },
+        "screenDimensions": {
+          "h": 157.0,
+          "w": 71.5
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "doogee-s98-pro",
+        "model": "Doogee S98 Pro",
+        "brand": "Doogee",
+        "year": 2022,
+        "screenSize": 6.3,
+        "dimensions": {
+          "h": 168.0,
+          "w": 80.0
+        },
+        "screenDimensions": {
+          "h": 151.0,
+          "w": 68.5
+        },
+        "screenType": "flat",
+        "notch": "waterdrop",
+        "glassType": "glass"
+      }
+    ],
+    "Caterpillar": [
+      {
+        "id": "cat-s75",
+        "model": "CAT S75",
+        "brand": "Caterpillar",
+        "year": 2024,
+        "screenSize": 6.58,
+        "dimensions": {
+          "h": 172.0,
+          "w": 80.0
+        },
+        "screenDimensions": {
+          "h": 157.0,
+          "w": 71.5
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "cat-s53",
+        "model": "CAT S53",
+        "brand": "Caterpillar",
+        "year": 2021,
+        "screenSize": 5.65,
+        "dimensions": {
+          "h": 156.6,
+          "w": 75.8
+        },
+        "screenDimensions": {
+          "h": 140.0,
+          "w": 67.0
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "cat-s62-pro",
+        "model": "CAT S62 Pro",
+        "brand": "Caterpillar",
+        "year": 2020,
+        "screenSize": 5.7,
+        "dimensions": {
+          "h": 158.9,
+          "w": 76.7
+        },
+        "screenDimensions": {
+          "h": 141.7,
+          "w": 67.3
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass5"
+      }
+    ],
+    "FOSSiBOT": [
+      {
+        "id": "fossibot-f102",
+        "model": "FOSSiBOT F102",
+        "brand": "FOSSiBOT",
+        "year": 2024,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 172.0,
+          "w": 82.5
+        },
+        "screenDimensions": {
+          "h": 157.0,
+          "w": 71.5
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "fossibot-f101",
+        "model": "FOSSiBOT F101",
+        "brand": "FOSSiBOT",
+        "year": 2023,
+        "screenSize": 6.6,
+        "dimensions": {
+          "h": 171.0,
+          "w": 83.0
+        },
+        "screenDimensions": {
+          "h": 156.0,
+          "w": 71.0
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      }
+    ],
+    "HOTWAV": [
+      {
+        "id": "hotwav-cyber-13-pro",
+        "model": "HOTWAV Cyber 13 Pro",
+        "brand": "HOTWAV",
+        "year": 2024,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 172.5,
+          "w": 83.0
+        },
+        "screenDimensions": {
+          "h": 157.5,
+          "w": 71.5
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "hotwav-t7-max",
+        "model": "HOTWAV T7 Max",
+        "brand": "HOTWAV",
+        "year": 2023,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 172.0,
+          "w": 82.5
+        },
+        "screenDimensions": {
+          "h": 157.0,
+          "w": 71.5
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      }
+    ],
+    "AGM": [
+      {
+        "id": "agm-glory-pro",
+        "model": "AGM Glory Pro",
+        "brand": "AGM",
+        "year": 2024,
+        "screenSize": 6.58,
+        "dimensions": {
+          "h": 172.0,
+          "w": 82.0
+        },
+        "screenDimensions": {
+          "h": 157.0,
+          "w": 71.5
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "agm-h5-pro",
+        "model": "AGM H5 Pro",
+        "brand": "AGM",
+        "year": 2023,
+        "screenSize": 6.52,
+        "dimensions": {
+          "h": 165.5,
+          "w": 77.0
+        },
+        "screenDimensions": {
+          "h": 153.0,
+          "w": 70.0
+        },
+        "screenType": "flat",
+        "notch": "waterdrop",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "agm-glory-g1s",
+        "model": "AGM Glory G1S",
+        "brand": "AGM",
+        "year": 2022,
+        "screenSize": 6.53,
+        "dimensions": {
+          "h": 165.0,
+          "w": 76.8
+        },
+        "screenDimensions": {
+          "h": 152.6,
+          "w": 70.5
+        },
+        "screenType": "flat",
+        "notch": "waterdrop",
+        "glassType": "gorilla-glass5"
+      }
+    ],
+    "Huawei": [
+      {
+        "id": "huawei-pura-70-pro",
+        "model": "Huawei Pura 70 Pro",
+        "brand": "Huawei",
+        "year": 2024,
+        "screenSize": 6.8,
+        "dimensions": {
+          "h": 163.6,
+          "w": 76.0
+        },
+        "screenDimensions": {
+          "h": 156.4,
+          "w": 70.9
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "kunlun-glass"
+      },
+      {
+        "id": "huawei-pura-70",
+        "model": "Huawei Pura 70",
+        "brand": "Huawei",
+        "year": 2024,
+        "screenSize": 6.6,
+        "dimensions": {
+          "h": 159.8,
+          "w": 74.6
+        },
+        "screenDimensions": {
+          "h": 152.7,
+          "w": 69.5
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "huawei-mate-60-pro",
+        "model": "Huawei Mate 60 Pro",
+        "brand": "Huawei",
+        "year": 2023,
+        "screenSize": 6.82,
+        "dimensions": {
+          "h": 163.7,
+          "w": 76.1
+        },
+        "screenDimensions": {
+          "h": 156.5,
+          "w": 71.0
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "kunlun-glass"
+      },
+      {
+        "id": "huawei-p60-pro",
+        "model": "Huawei P60 Pro",
+        "brand": "Huawei",
+        "year": 2023,
+        "screenSize": 6.67,
+        "dimensions": {
+          "h": 161.3,
+          "w": 74.5
+        },
+        "screenDimensions": {
+          "h": 154.5,
+          "w": 69.4
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "kunlun-glass"
+      },
+      {
+        "id": "huawei-nova-11",
+        "model": "Huawei Nova 11",
+        "brand": "Huawei",
+        "year": 2023,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 161.4,
+          "w": 74.8
+        },
+        "screenDimensions": {
+          "h": 154.5,
+          "w": 69.6
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "huawei-p50-pro",
+        "model": "Huawei P50 Pro",
+        "brand": "Huawei",
+        "year": 2021,
+        "screenSize": 6.6,
+        "dimensions": {
+          "h": 159.2,
+          "w": 75.1
+        },
+        "screenDimensions": {
+          "h": 152.1,
+          "w": 70.1
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "huawei-mate-40-pro",
+        "model": "Huawei Mate 40 Pro",
+        "brand": "Huawei",
+        "year": 2020,
+        "screenSize": 6.76,
+        "dimensions": {
+          "h": 162.9,
+          "w": 75.5
+        },
+        "screenDimensions": {
+          "h": 155.8,
+          "w": 70.5
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "huawei-p40-pro",
+        "model": "Huawei P40 Pro",
+        "brand": "Huawei",
+        "year": 2020,
+        "screenSize": 6.58,
+        "dimensions": {
+          "h": 158.2,
+          "w": 72.6
+        },
+        "screenDimensions": {
+          "h": 151.1,
+          "w": 67.7
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
+      {
+        "id": "huawei-p30-pro",
+        "model": "Huawei P30 Pro",
+        "brand": "Huawei",
+        "year": 2019,
+        "screenSize": 6.47,
+        "dimensions": {
+          "h": 158.0,
+          "w": 73.4
+        },
+        "screenDimensions": {
+          "h": 150.9,
+          "w": 68.5
+        },
+        "screenType": "curved",
+        "notch": "waterdrop",
+        "glassType": "glass"
+      },
+      {
+        "id": "huawei-p30",
+        "model": "Huawei P30",
+        "brand": "Huawei",
+        "year": 2019,
+        "screenSize": 6.1,
+        "dimensions": {
+          "h": 149.1,
+          "w": 71.4
+        },
+        "screenDimensions": {
+          "h": 142.3,
+          "w": 66.7
+        },
+        "screenType": "flat",
+        "notch": "waterdrop",
+        "glassType": "glass"
+      },
+      {
+        "id": "huawei-mate-20-pro",
+        "model": "Huawei Mate 20 Pro",
+        "brand": "Huawei",
+        "year": 2018,
+        "screenSize": 6.39,
+        "dimensions": {
+          "h": 157.8,
+          "w": 72.3
+        },
+        "screenDimensions": {
+          "h": 150.7,
+          "w": 67.5
+        },
+        "screenType": "curved",
+        "notch": "notch",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "huawei-p20-pro",
+        "model": "Huawei P20 Pro",
+        "brand": "Huawei",
+        "year": 2018,
+        "screenSize": 6.1,
+        "dimensions": {
+          "h": 149.4,
+          "w": 70.8
+        },
+        "screenDimensions": {
+          "h": 142.7,
+          "w": 66.1
+        },
+        "screenType": "flat",
+        "notch": "notch",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "huawei-p20",
+        "model": "Huawei P20",
+        "brand": "Huawei",
+        "year": 2018,
+        "screenSize": 5.8,
+        "dimensions": {
+          "h": 149.1,
+          "w": 70.8
+        },
+        "screenDimensions": {
+          "h": 142.4,
+          "w": 66.1
+        },
+        "screenType": "flat",
+        "notch": "notch",
+        "glassType": "gorilla-glass3"
+      },
+      {
+        "id": "huawei-p10",
+        "model": "Huawei P10",
+        "brand": "Huawei",
+        "year": 2017,
+        "screenSize": 5.1,
+        "dimensions": {
+          "h": 145.3,
+          "w": 69.3
+        },
+        "screenDimensions": {
+          "h": 113.7,
+          "w": 64.0
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "huawei-mate-9",
+        "model": "Huawei Mate 9",
+        "brand": "Huawei",
+        "year": 2016,
+        "screenSize": 5.9,
+        "dimensions": {
+          "h": 156.9,
+          "w": 78.9
+        },
+        "screenDimensions": {
+          "h": 129.5,
+          "w": 73.2
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass4"
+      },
+      {
+        "id": "huawei-p9",
+        "model": "Huawei P9",
+        "brand": "Huawei",
+        "year": 2016,
+        "screenSize": 5.2,
+        "dimensions": {
+          "h": 145.0,
+          "w": 70.9
+        },
+        "screenDimensions": {
+          "h": 116.0,
+          "w": 65.8
+        },
+        "screenType": "flat",
+        "notch": "none",
+        "glassType": "gorilla-glass4"
+      }
+    ]
+  }
+}
