@@ -100,7 +100,99 @@
   "phones": {
     "Apple": [
       {
-        "id": "iphone-16-pro-max",
+        [
+  {
+    "id": "iphone-17a",
+    "model": "iPhone 17a",
+    "brand": "Apple",
+    "year": 2025,
+    "screenSize": 6.1,
+    "dimensions": {
+      "h": 147.6,
+      "w": 71.6
+    },
+    "screenDimensions": {
+      "h": 140.2,
+      "w": 65.1
+    },
+    "screenType": "flat",
+    "notch": "pill",
+    "glassType": "ceramic-shield"
+  },
+  {
+    "id": "iphone-17",
+    "model": "iPhone 17",
+    "brand": "Apple",
+    "year": 2025,
+    "screenSize": 6.3,
+    "dimensions": {
+      "h": 149.6,
+      "w": 71.5
+    },
+    "screenDimensions": {
+      "h": 142.0,
+      "w": 66.0
+    },
+    "screenType": "flat",
+    "notch": "pill",
+    "glassType": "ceramic-shield-2"
+  },
+  {
+    "id": "iphone-17-air",
+    "model": "iPhone 17 Air",
+    "brand": "Apple",
+    "year": 2025,
+    "screenSize": 6.5,
+    "dimensions": {
+      "h": 156.2,
+      "w": 74.7
+    },
+    "screenDimensions": {
+      "h": 148.5,
+      "w": 69.2
+    },
+    "screenType": "flat",
+    "notch": "pill",
+    "glassType": "ceramic-shield-2"
+  },
+  {
+    "id": "iphone-17-pro",
+    "model": "iPhone 17 Pro",
+    "brand": "Apple",
+    "year": 2025,
+    "screenSize": 6.3,
+    "dimensions": {
+      "h": 150.0,
+      "w": 71.9
+    },
+    "screenDimensions": {
+      "h": 143.1,
+      "w": 66.8
+    },
+    "screenType": "flat",
+    "notch": "pill",
+    "glassType": "ceramic-shield-2"
+  },
+  {
+    "id": "iphone-17-pro-max",
+    "model": "iPhone 17 Pro Max",
+    "brand": "Apple",
+    "year": 2025,
+    "screenSize": 6.9,
+    "dimensions": {
+      "h": 163.4,
+      "w": 78.0
+    },
+    "screenDimensions": {
+      "h": 156.2,
+      "w": 73.6
+    },
+    "screenType": "flat",
+    "notch": "pill",
+    "glassType": "ceramic-shield-2"
+  }
+
+    {  "id": "iphone-16-pro-max",
         "model": "iPhone 16 Pro Max",
         "brand": "Apple",
         "year": 2024,
