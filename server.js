@@ -32,7 +32,7 @@ app.use(express.json());
 // Το αρχείο JSON μπορεί να:
 //  (α) βρίσκεται τοπικά στο /database/phones-database.json, ή
 //  (β) τραβηχτεί από raw.githubusercontent.com αν οριστεί DATABASE_URL
-const LOCAL_DB_PATH = path.join(__dirname, "..", "database", "phones-database.json");
+const LOCAL_DB_PATH = path.join(__dirname, "phones-database.json");
 const DATABASE_URL  = process.env.DATABASE_URL || ""; // π.χ. raw GitHub URL
 
 let DB = null;
