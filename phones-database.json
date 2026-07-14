@@ -6,7 +6,7 @@
     "yearRange": "2014-2026",
     "disclaimer": "Τα τεχνικά χαρακτηριστικά των συσκευών αποτελούν δημόσια δεδομένα των κατασκευαστών και χρησιμοποιούνται αποκλειστικά για ενημερωτικούς σκοπούς συμβατότητας.",
     "schema": "id | model | brand | year | screenSize(in) | dimensions{h,w}mm | screenDimensions{h,w}mm | screenType(flat|curved|flat-2.5d) | notch(none|notch|punch-hole|pill|waterdrop|bar) | glassType",
-    "totalDevices": 749,
+    "totalDevices": 751,
     "totalBrands": 31
   },
   "brands": [
@@ -2750,6 +2750,42 @@
       }
     ],
     "Redmi": [
+      {
+        "id": "redmi-15c",
+        "model": "Redmi 15C",
+        "brand": "Redmi",
+        "year": 2026,
+        "screenSize": 6.88,
+        "dimensions": {
+          "h": 168.9,
+          "w": 77.5
+        },
+        "screenDimensions": {
+          "h": 161.4,
+          "w": 72.4
+        },
+        "screenType": "flat",
+        "notch": "waterdrop",
+        "glassType": "glass"
+      },
+      {
+        "id": "redmi-a5",
+        "model": "Redmi A5",
+        "brand": "Redmi",
+        "year": 2025,
+        "screenSize": 6.88,
+        "dimensions": {
+          "h": 168.9,
+          "w": 77.5
+        },
+        "screenDimensions": {
+          "h": 161.4,
+          "w": 72.4
+        },
+        "screenType": "flat",
+        "notch": "waterdrop",
+        "glassType": "glass"
+      },
       {
         "id": "redmi-note-15-pro-plus",
         "model": "Redmi Note 15 Pro+",
