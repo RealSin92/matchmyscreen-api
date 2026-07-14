@@ -6,7 +6,7 @@
     "yearRange": "2014-2026",
     "disclaimer": "Τα τεχνικά χαρακτηριστικά των συσκευών αποτελούν δημόσια δεδομένα των κατασκευαστών και χρησιμοποιούνται αποκλειστικά για ενημερωτικούς σκοπούς συμβατότητας.",
     "schema": "id | model | brand | year | screenSize(in) | dimensions{h,w}mm | screenDimensions{h,w}mm | screenType(flat|curved|flat-2.5d) | notch(none|notch|punch-hole|pill|waterdrop|bar) | glassType",
-    "totalDevices": 744,
+    "totalDevices": 749,
     "totalBrands": 31
   },
   "brands": [
@@ -820,6 +820,24 @@
       }
     ],
     "Samsung": [
+      {
+        "id": "galaxy-a27-5g",
+        "model": "Galaxy A27 5G",
+        "brand": "Samsung",
+        "year": 2026,
+        "screenSize": 6.7,
+        "dimensions": {
+          "h": 162.4,
+          "w": 77.5
+        },
+        "screenDimensions": {
+          "h": 154.9,
+          "w": 72.2
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
       {
         "id": "galaxy-s26-ultra",
         "model": "Galaxy S26 Ultra",
@@ -6905,6 +6923,24 @@
     ],
     "Oppo": [
       {
+        "id": "oppo-reno16-pro",
+        "model": "Oppo Reno16 Pro",
+        "brand": "Oppo",
+        "year": 2026,
+        "screenSize": 6.83,
+        "dimensions": {
+          "h": 163.0,
+          "w": 75.2
+        },
+        "screenDimensions": {
+          "h": 155.8,
+          "w": 70.1
+        },
+        "screenType": "curved",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
         "id": "oppo-find-x9-pro",
         "model": "Oppo Find X9 Pro",
         "brand": "Oppo",
@@ -7464,6 +7500,42 @@
       }
     ],
     "Nothing": [
+      {
+        "id": "nothing-phone-4a-pro",
+        "model": "Nothing Phone (4a) Pro",
+        "brand": "Nothing",
+        "year": 2026,
+        "screenSize": 6.77,
+        "dimensions": {
+          "h": 163.5,
+          "w": 76.8
+        },
+        "screenDimensions": {
+          "h": 156.3,
+          "w": 71.7
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
+      {
+        "id": "nothing-phone-4a",
+        "model": "Nothing Phone (4a)",
+        "brand": "Nothing",
+        "year": 2026,
+        "screenSize": 6.77,
+        "dimensions": {
+          "h": 163.5,
+          "w": 76.6
+        },
+        "screenDimensions": {
+          "h": 156.3,
+          "w": 71.5
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "gorilla-glass5"
+      },
       {
         "id": "nothing-phone-3",
         "model": "Nothing Phone (3)",
@@ -9492,6 +9564,24 @@
       }
     ],
     "TCL": [
+      {
+        "id": "tcl-k70",
+        "model": "TCL K70",
+        "brand": "TCL",
+        "year": 2026,
+        "screenSize": 6.78,
+        "dimensions": {
+          "h": 166.5,
+          "w": 77.0
+        },
+        "screenDimensions": {
+          "h": 159.0,
+          "w": 71.9
+        },
+        "screenType": "flat",
+        "notch": "punch-hole",
+        "glassType": "glass"
+      },
       {
         "id": "tcl-60-xl",
         "model": "TCL 60 XL",
